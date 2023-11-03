@@ -1,0 +1,76 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ProductCard from "../../components/ProductCard.astro";
+
+import { slugify, formatProducts } from "../../js/utils";
+
+export async function getStaticPaths() {
+  const allProducts = await Astro.glob("../products/*.md");
+  const formattedProducts = formatProducts(allProducts);
+  const allCategory = [
+    ...new Set(formattedProducts.map((product) => product.frontmatter.category.name).flat()),
+  ];
+  return allCategory.map((category) => {
+    const categoryProducts = formattedProducts.filter(
+      (product) => product.frontmatter.category.name === category
+    );
+    return {
+      params: { category: slugify(category) },
+      props: {
+        categoryName: category,
+        products: categoryProducts,
+      },
+    };
+  });
+}
+
+const { category } = Astro.params;
+const { products, categoryName } = Astro.props;
+
+---
+
+
+<Layout title={categoryName}>
+  <section class="g-bg-gray-light-v5 g-py-50">
+    <div class="container">
+      <div class="d-sm-flex text-center">
+        <div class="align-self-center">
+          <h2 class="h2 g-font-weight-300 w-100 g-mb-10 g-mb-0--md">{categoryName}</h2>
+        </div>
+        <div class="align-self-center ml-auto">
+          <ul class="u-list-inline">
+            <li class="list-inline-item g-mr-5">
+              <a class="u-link-v5 g-color-main g-color-primary--hover" href="/">Home</a>
+              <i class="g-color-gray-light-v2 g-ml-5">/</i>
+            </li>
+            <li class="list-inline-item g-mr-5">
+              <a class="u-link-v5 g-color-main g-color-primary--hover" href="/category">Shop</a>
+              <i class="g-color-gray-light-v2 g-ml-5">/</i>
+            </li>
+            <li class="list-inline-item g-color-primary">
+              <span>{categoryName}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <section class="container g-pt-50" aria-label={categoryName}}>
+      <div class="post-container mb-5">
+        <div class="row">
+        {
+          products.map((product) => (
+            <ProductCard
+            frontmatter={product.frontmatter}
+                    url={product.url}
+            >
+
+            </ProductCard>
+          ))
+        }
+        </div>
+      </div>
+    </section>
+  </Layout>

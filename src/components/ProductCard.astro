@@ -1,0 +1,41 @@
+---
+const { frontmatter, url, tagType } = Astro.props;
+
+const Tag = tagType;
+
+const { title, price, image, category } = frontmatter;
+
+import { slugify } from "../js/utils";
+---
+
+
+
+<!-- <div class="card" style="width: 18rem;">
+    <img src={image.src} class="card-img-top" alt={image.alt}>
+    <div class="card-body mx-auto">
+      <h4 class="card-title">{title}</h4>
+      <a href={`/products/${slugify(title)}`} class="btn btn-primary ">More Info</a>
+    </div>
+</div> -->
+
+
+
+<div class="col-6 col-lg-3 g-mb-30">
+  <!-- Product -->
+  <figure class="g-pos-rel g-mb-20 product">
+    <img class="img-fluid w-100" src={image.src} alt={image.alt}>
+  </figure>
+  <div class="media">
+    <!-- Product Info -->
+    <div class="d-flex flex-column">
+      <h4 class="h4 g-color-black mb-1">
+        <a class="u-link-v5 g-color-black g-color-primary--hover" href={url}>
+          {title}
+        </a>
+      </h4>
+      <span class="d-block g-color-black g-font-size-17">{price}</span>
+    </div>
+    <!-- End Product Info -->
+  </div>
+  <!-- End Product -->
+</div>

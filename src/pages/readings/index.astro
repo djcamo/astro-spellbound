@@ -1,0 +1,35 @@
+---
+import Breadcrumb from "../../components/Breadcrumb.astro";
+import Layout from "../../layouts/Layout.astro";
+
+const readers = await Astro.glob('../../content/readers/*.md');
+const allReaders = readers.map(n => ({
+  name: n.frontmatter.name,
+  image: n.frontmatter.image.src,
+  alt: n.frontmatter.image.alt,
+  Content: n.Content
+}));
+---
+
+<Layout title="Our tarot readers">
+    <Breadcrumb pagename="Tarot Readings" />
+    {allReaders.map(({ name,image,alt, Content }) => (
+        <section class="container g-pt-100 g-pb-40" aria-label="Readers">
+          <figure class="row">
+            <div class="col-md-8 offset-md-2 col-lg-3 offset-lg-0 g-mb-30">
+              <img class="w-100" src={image} alt={alt}>
+            </div>
+            <div class="col-lg-9">
+              <div class="d-flex justify-content-between g-mb-10">
+                <div class="g-mb-20">
+                  <h4 class="h5 g-mb-5">{name}</h4>
+                </div>
+              </div>
+              <div class="g-mb-50">
+                <Content />
+              </div>
+            </div>
+          </figure>
+        </section>
+    ))}
+</Layout>

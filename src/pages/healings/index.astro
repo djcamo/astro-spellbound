@@ -1,0 +1,37 @@
+---
+import Breadcrumb from "../../components/Breadcrumb.astro";
+import Layout from "../../layouts/Layout.astro";
+import {CollectionEntry, getCollection} from "astro:content";
+const healers = await Astro.glob('../../content/healers/*.md');
+const allHealers = healers.map(n => ({
+  name: n.frontmatter.name,
+  image: n.frontmatter.image.src,
+  alt: n.frontmatter.image.alt,
+  mode: n.frontmatter.image.mode,
+  Content: n.Content
+}));
+---
+
+<Layout title="Our energy healers">
+   <Breadcrumb pagename="Healings" />
+      <section class="container g-pt-100 g-pb-40" aria-label="Healers">
+        {allHealers.map(({ name,image,alt,mode, Content }) => (
+          <figure class="row">
+            <div class="col-md-8 offset-md-2 col-lg-3 offset-lg-0 g-mb-30">
+              <img class="w-100" src={image} alt={alt}>
+            </div>
+            <div class="col-lg-9">
+              <div class="d-flex justify-content-between g-mb-10">
+                <div class="g-mb-20">
+                  <h4 class="h5 g-mb-5">{name}</h4>
+                  <em class="d-block g-font-style-normal g-font-size-default text-uppercase g-color-primary">{mode}</em>
+                </div>
+              </div>
+              <div class="g-mb-50">
+                <Content />
+              </div>
+            </div>
+          </figure>
+        ))}
+    </section>
+</Layout >
