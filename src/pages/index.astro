@@ -3,6 +3,9 @@ import LayoutHome from '../layouts/LayoutHome.astro';
 import Card from '../components/Card.astro';
 import Hours from '../components/Hours.astro';
 import bg from '../img/bg.jpg';
+import tarot from '../img/tarot.png';
+import fairy from '../img/fairy.png';
+import reiki from '../img/reiki.png';
 ---
 
 <LayoutHome title="Welcome to Spellbound.">
@@ -12,14 +15,12 @@ import bg from '../img/bg.jpg';
     style="height: 120%; background-image: url('img/gemstones.jpg'); transform: translate3d(0px, -74.489px, 0px);">
   </div> -->
 
-  <div class="container g-py-150 ">
+  <div class="container g-py-100 ">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h3 class="g-color-white g-font-weight-300 g-font-size-40 g-line-height-1_2 mb-4">Have an easy
-          <br>
-          website with Unify
+        <h3 class="g-color-white g-font-weight-300 g-font-size-40 g-line-height-1_2 mb-4">Find Your Inner Peace
         </h3>
-        <span class="d-block g-color-white-opacity-0_8 g-font-size-16 mb-5">Build, share, sell and enjoy.</span>
+        <span class="d-block g-color-white-opacity-0_8 g-font-size-16 mb-5">Explore our website today and discover the magic of Spellbound!</span>
 
       </div>
     </div>
@@ -90,20 +91,6 @@ import bg from '../img/bg.jpg';
 </section>
 
 <Hours />
-<!-- <section class="g-bg-primary g-color-white g-py-50 g-pa-30">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h3 class="h4">Easter Trading Hours</h3>
-        <p class="lead g-mb-20 g-mb-0--md">Friday - Closed</p>
-        <p class="lead g-mb-20 g-mb-0--md">Saturday - Closed</p>
-        <p class="lead g-mb-20 g-mb-0--md">Sunday - Closed</p>
-        <p class="lead g-mb-20 g-mb-0--md">Monday - Closed</p>
-      </div>
-    </div>
-  </div>
-</section> -->
-
 
 <style>
   .auto-init{
@@ -176,31 +163,31 @@ import bg from '../img/bg.jpg';
     <div class="row g-3 mt-5 mb-5">
         <div class="col-md-4">
             <div class="card">
-                <div class="card-img-top image-card image-card-1"> <img src="/img/tarot.png" alt="..."> </div>
+                <div class="card-img-top image-card image-card-1"> <img src={tarot} alt="..."> </div>
                 <div class="card-body"> <span class="text-uppercase text-danger fw-bold fs-6">Tarot Readings</span>
                     <h6 class="card-title text-dark mt-2">What you wants to know about hubspot?</h6>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p> <a href="#" class="text-dark">Read full story...</a>
-                    <div class="mt-4 about d-flex justify-content-between align-items-center"> <span>Shallaugh</span> <span>On 12 Oct, 2020</span> </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
+                    <div class="mt-4 about d-flex justify-content-between align-items-center"> <span><a href="/readings">More Info</a></span> </div>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card">
-                <div class="card-img-top image-card image-card-2"> <img src="/img/fairy.png" alt="..."> </div>
+                <div class="card-img-top image-card image-card-2"> <img src={fairy} alt="..."> </div>
                 <div class="card-body"> <span class="text-uppercase text-danger fw-bold fs-6">Fairy School</span>
-                    <h6 class="card-title text-dark mt-2">What you wants to know about hubspot?</h6>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p> <a href="#" class="text-dark">Read full story...</a>
-                    <div class="mt-4 about d-flex justify-content-between align-items-center"> <span>Rhiannon</span> <span>On 12 Oct, 2020</span>  </div>
+                    <h6 class="card-title text-dark mt-2">After 21 years we are bringing back the magic for the kids!</h6>
+                    <p class="card-text">Every Saturday at 10am our resident fairy, Rhiannon, will be hosting an hour of fairy fun.
+                      <div class="mt-4 about d-flex justify-content-between align-items-center"> <a href="/readings">More Info</a></span> </div>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card">
-                <div class="card-img-top image-card image-card-3"> <img src="https://i.imgur.com/pTkFtZq.png" alt="..."> </div>
-                <div class="card-body"> <span class="text-uppercase text-danger fw-bold fs-6">Category</span>
+                <div class="card-img-top image-card image-card-3"> <img src={reiki} alt="..."> </div>
+                <div class="card-body"> <span class="text-uppercase text-danger fw-bold fs-6">Reiki Classes</span>
                     <h6 class="card-title text-dark mt-2">What you wants to know about hubspot?</h6>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p> <a href="#" class="text-dark">Read full story...</a>
-                    <div class="mt-4 about d-flex justify-content-between align-items-center"> <span>By Prabhjot Singh</span> <span>On 12 Oct, 2020</span> <span>5 min read</span> </div>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
+                    <div class="mt-4 about d-flex justify-content-between align-items-center"> <a href="/readings">More Info</a></span> </div>
                 </div>
             </div>
         </div>

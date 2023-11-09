@@ -10,32 +10,30 @@ import { slugify } from "../js/utils";
 
 
 
-<!-- <div class="card" style="width: 18rem;">
-    <img src={image.src} class="card-img-top" alt={image.alt}>
-    <div class="card-body mx-auto">
-      <h4 class="card-title">{title}</h4>
-      <a href={`/products/${slugify(title)}`} class="btn btn-primary ">More Info</a>
+
+
+
+
+
+    <div class="col-sm-3 g-my-10">
+      <!-- Article -->
+      <article class="h-100 text-center g-bg-white g-brd-around g-brd-gray-light-v4">
+        <!-- Article Image -->
+        <img class="d-block info-v5-2__image g-ml-minus-1" src={image.src} alt="Image Description">
+        <!-- End Article Image -->
+
+        <!-- Article Content -->
+        <div class="text-center g-pa-20">
+          <h3 class="h6 g-color-black g-font-weight-700 text-uppercase g-mb-15">
+            <a class="u-link-v5 g-color-black g-color-primary--hover" href={url}>{title}</a>
+          </h3>
+          <span class="g-color-primary g-font-weight-700 g-font-size-16">{price}</span>
+        </div>
+        <!-- End Article Content -->
+      </article>
+      <!-- End Article -->
     </div>
-</div> -->
 
 
 
-<div class="col-6 col-lg-3 g-mb-30">
-  <!-- Product -->
-  <figure class="g-pos-rel g-mb-20 product">
-    <img class="img-fluid w-100" src={image.src} alt={image.alt}>
-  </figure>
-  <div class="media">
-    <!-- Product Info -->
-    <div class="d-flex flex-column">
-      <h4 class="h4 g-color-black mb-1">
-        <a class="u-link-v5 g-color-black g-color-primary--hover" href={url}>
-          {title}
-        </a>
-      </h4>
-      <span class="d-block g-color-black g-font-size-17">{price}</span>
-    </div>
-    <!-- End Product Info -->
   </div>
-  <!-- End Product -->
-</div>
