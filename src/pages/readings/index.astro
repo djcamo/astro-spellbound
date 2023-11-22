@@ -15,21 +15,17 @@ const allReaders = readers.map(n => ({
     <Breadcrumb pagename="Tarot Readings" />
     {allReaders.map(({ name,image,alt, Content }) => (
         <section class="container g-pt-100 g-pb-40" aria-label="Readers">
-          <figure class="row">
-            <div class="col-md-8 offset-md-2 col-lg-3 offset-lg-0 g-mb-30">
-              <img class="w-100" src={image} alt={alt}>
-            </div>
-            <div class="col-lg-9">
-              <div class="d-flex justify-content-between g-mb-10">
-                <div class="g-mb-20">
-                  <h4 class="h5 g-mb-5">{name}</h4>
+            <article class="row flex-md-row align-items-center text-center">
+              <div class="col-lg-7 g-mb-50">
+                <h3 class="h1 g-color-black g-font-weight-700 text-uppercase g-line-height-1_2 g-mb-35">{name}</h3>
+                <div class="g-px-70--md g-mb-20">
+                  <Content />
                 </div>
               </div>
-              <div class="g-mb-50">
-                <Content />
+              <div class="col-lg-5 g-mb-50">
+                <img class="img-fluid w-100" src={image} alt={alt}>
               </div>
-            </div>
-          </figure>
+            </article>
         </section>
     ))}
 </Layout>

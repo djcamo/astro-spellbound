@@ -1,0 +1,40 @@
+---
+import LayoutHome from '../layouts/LayoutHome.astro';
+import Breadcrumb from '../components/Breadcrumb.astro';
+import fairy from '../img/fairy_school.jpg';
+---
+
+<LayoutHome title="Welcome to Fairy School">
+    <Breadcrumb pagename="Fairy School" />
+    <section class="container g-py-50">
+        <div class="row">
+          <div class="col-lg-5 g-mb-50 g-mb-0--lg">
+            <img class="img-fluid" src={fairy} alt="Image Description" />
+          </div>
+
+          <div class="col-lg-7 align-self-center">
+            <header class="u-heading-v2-3--bottom g-brd-primary g-mb-20">
+              <h2 class="h3 u-heading-v2__title text-uppercase g-font-weight-300">
+                About Spellbound
+              </h2>
+            </header>
+
+            <p>
+              Spellbound Magical Gifts is a family owned and operated business
+              located in the main street of the historic town of Gawler, about an
+              hour north of Adelaide.
+            </p>
+            <p>
+              Formerly known as "Fairy Secrets", Spellbound has been in the current
+              location since 2001, and has been proudly supplying the local
+              and wider community with unique gifts and new age products for over
+              20 years.
+            </p>
+            <p>
+              Saturdays at 10 am, $10 per child. Booking are essential!
+            </p>
+          </div>
+        </div>
+      </section>
+
+</LayoutHome>

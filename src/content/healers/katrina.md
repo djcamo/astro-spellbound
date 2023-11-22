@@ -1,6 +1,6 @@
 ---
 name: Katrina
-mode: Energy PRactitioner
+type: Energy PRactitioner
 image: {
     src: "/img/people/katrina.jpg",
     alt: "Gumleaf Fragrant Oils",

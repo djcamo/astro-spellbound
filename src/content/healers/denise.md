@@ -1,6 +1,6 @@
 ---
 name: Denise
-mode: Crystal Bed Healings
+type: Crystal Bed Healings
 image: {
     src: "/img/people/denise.jpg",
     alt: "Denise",

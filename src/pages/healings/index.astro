@@ -7,7 +7,7 @@ const allHealers = healers.map(n => ({
   name: n.frontmatter.name,
   image: n.frontmatter.image.src,
   alt: n.frontmatter.image.alt,
-  mode: n.frontmatter.image.mode,
+  type: n.frontmatter.type,
   Content: n.Content
 }));
 ---
@@ -15,23 +15,19 @@ const allHealers = healers.map(n => ({
 <Layout title="Our energy healers">
    <Breadcrumb pagename="Healings" />
       <section class="container g-pt-100 g-pb-40" aria-label="Healers">
-        {allHealers.map(({ name,image,alt,mode, Content }) => (
-          <figure class="row">
-            <div class="col-md-8 offset-md-2 col-lg-3 offset-lg-0 g-mb-30">
-              <img class="w-100" src={image} alt={alt}>
-            </div>
-            <div class="col-lg-9">
-              <div class="d-flex justify-content-between g-mb-10">
-                <div class="g-mb-20">
-                  <h4 class="h5 g-mb-5">{name}</h4>
-                  <em class="d-block g-font-style-normal g-font-size-default text-uppercase g-color-primary">{mode}</em>
+        {allHealers.map(({ name,image,alt,type, Content }) => (
+            <article class="row flex-md-row align-items-center text-center">
+              <div class="col-lg-6 g-mb-50">
+                <h3 class="h1 g-color-black g-font-weight-700 text-uppercase g-line-height-1_2 g-mb-35">{name}</h3>
+                <em class="d-block g-font-style-normal g-font-size-default text-uppercase g-color-primary g-mb-30">{type}</em>
+                <div class="g-px-70--md g-mb-20">
+                  <Content />
                 </div>
               </div>
-              <div class="g-mb-50">
-                <Content />
+              <div class="col-lg-6 g-mb-50">
+                <img class="img-fluid w-100" src={image} alt={alt}>
               </div>
-            </div>
-          </figure>
+            </article>
         ))}
     </section>
 </Layout >
