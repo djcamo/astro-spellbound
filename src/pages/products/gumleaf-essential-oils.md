@@ -19,4 +19,5 @@ These essential oils are the finest quality available and have been stringently 
 Ideal for use in aromatherapy, ultrasonic oil diffusers, oil burners, bath or blended for massage.
 
 Available in:
-Orange ($17.95)
+- Orange ($17.95)
+- Lemon ($17.95)
