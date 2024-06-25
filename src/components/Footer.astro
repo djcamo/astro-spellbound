@@ -95,11 +95,13 @@
     </div>
   </footer>
   <!-- End Copyright Footer -->
-  <!-- <script src="assets/js/hs.core.js"></script>
-  <script src="assets/js/custom.js"></script>
-  <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-  <script src="assets/vendor/slick-carousel/slick/slick.min.js"></script> -->
-
+  <script is:inline src="/js/jquery.min.js" />
+  <script>
+    jQuery('.navbar-toggler').click(function(){
+      jQuery('.collapse').toggle();
+      jQuery('.navbar-toggler span').toggleClass('is-active');
+    });
+  </script>
   <style>
     .g-bg-gradient{
       background: linear-gradient(0deg,#000 0%,#4d0f8a 100%);
