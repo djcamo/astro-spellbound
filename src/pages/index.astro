@@ -1,5 +1,5 @@
 ---
-import LayoutHome from '../layouts/LayoutHome.astro';
+import LayoutHome from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import Hours from '../components/Hours.astro';
 import bg from '../img/bg.jpg';
@@ -9,25 +9,9 @@ import reiki from '../img/reiki.png';
 ---
 
 <LayoutHome title="Welcome to Spellbound.">
-	<section class="auto-init height-is-based-on-content use-loading mode-scroll loaded dzsprx-readyall"
-  data-options="{direction: 'reverse';, settings_mode_oneelement_max_offset: &quot;150&quot;}" style="">
-  <!-- <div class="divimage w-100 g-bg-pos-bottom-center"
-    style="height: 120%; background-image: url('img/gemstones.jpg'); transform: translate3d(0px, -74.489px, 0px);">
-  </div> -->
 
-  <div class="container g-py-100 ">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h3 class="g-color-white g-font-weight-300 g-font-size-40 g-line-height-1_2 mb-4">Find Your Inner Peace
-        </h3>
-        <span class="d-block g-color-white-opacity-0_8 g-font-size-16 mb-5">Explore our website today and discover the magic of Spellbound!</span>
 
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
+<section class="section-padding">
 
   <div class="container">
     <div class="text-center g-my-50 u-heading-v3-1 g-mb-40">
@@ -90,7 +74,6 @@ import reiki from '../img/reiki.png';
   </div>
 </section>
 
-<Hours />
 
 <style>
   .auto-init{
@@ -158,7 +141,7 @@ import reiki from '../img/reiki.png';
 </style>
 
 
-<section>
+<section class="section-padding">
   <div class="container">
     <div class="text-center g-my-50 u-heading-v3-1 g-mb-40">
       <h2 class="text-uppercase h2 u-heading-v3__title g-brd-primary">Whats Happening

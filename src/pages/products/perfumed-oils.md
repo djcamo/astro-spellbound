@@ -5,6 +5,10 @@ image: {
   src: "/img/products/spiritual.sky.perfume.oils1.jpg",
   alt: "Perfumed Oils",
 }
+imageHover: {
+  src: "/img/products/spiritual.sky.perfume.oils1.jpg",
+  alt: "Perfumed Oils",
+}
 description: Spirit of the Orient Fragrance Oils are a premium range of concentrated exotic fragrant oils.
 active: true
 category: {

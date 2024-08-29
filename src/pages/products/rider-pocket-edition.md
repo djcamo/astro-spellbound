@@ -5,11 +5,15 @@ image: {
   src: "/img/products/rider_tarot_mini.jpg",
   alt: "Rider Tarot Deck - Pocket Edition",
 }
+imageHover: {
+  src: "/img/products/rider_tarot_mini.jpg",
+  alt: "Rider Tarot Deck - Pocket Edition",
+}
 description: The classic Rider-Waite Tarot is the best known Tarot deck.
 active: true
 category: {
     name: "Tarot-Oracle",
-    image: "/img/catalogs/tarot-oracle.jpg",
+    image: "/img/category/tarot.jpg",
 }
 price: $27.00
 ---

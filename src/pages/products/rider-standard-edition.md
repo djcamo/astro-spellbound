@@ -5,6 +5,10 @@ image: {
   src: "/img/products/rider_tarot.jpg",
   alt: "Rider-Waite Tarot Deck - Standard",
 }
+imageHover: {
+  src: "/img/products/rider_tarot.jpg",
+  alt: "Rider-Waite Tarot Deck - Standard",
+}
 description: The classic Rider-Waite Tarot is the best known Tarot deck.
 active: true
 category: {

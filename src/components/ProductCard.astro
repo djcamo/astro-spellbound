@@ -3,43 +3,76 @@ const { frontmatter, url, tagType } = Astro.props;
 
 const Tag = tagType;
 
-const { title, price, image, category } = frontmatter;
+const { title, price, image, category, imageHover } = frontmatter;
 
 import { slugify } from "../js/utils";
+
+console.log(imageHover);
+
 ---
 
 
+<div class="col-6 col-sm-6 col-lg-4 col-md-6 col-sm-6 mb-45grid-item col">
+    <div class="product single-product  32891398553657   ">
+        <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
+            <a class="image image-wrap" href={url}>
+                <style>
+                    #Image-18598732300345-0 {
+                        max-width: 600.0px;
+                        max-height: 800px;
+                    }
+                </style>
+                <img id="Image-18598732300345-0"
+                      class="responsive-image__image popup_cart_image lazyautosizes ls-is-cached lazyloaded"
+                      src={image.src}
+                      data-widths="[180,360,540,600]"
+                      data-aspectratio="0.75"
+                      data-sizes="auto" tabindex="-1"
+                      alt={image.alt}
+                      data-srcset=""
+                      sizes="270px"
+                      srcset="">
+                <noscript>
+                    <img class="popup_cart_image"
+                        src={image.src}
+                        alt={image.alt}>
+                </noscript>
 
-
-
-
-
-
-    <!-- <div class="col-sm-3 g-my-10">
-      <article class="h-100 text-center g-bg-white g-brd-around g-brd-gray-light-v4">
-        <img class="d-block info-v5-2__image g-ml-minus-1" src={image.src} alt="Image Description">
-        <div class="text-center g-pa-20">
-          <h3 class="h6 g-color-black g-font-weight-700 text-uppercase g-mb-15">
-            <a class="u-link-v5 g-color-black g-color-primary--hover" href={url}>{title}</a>
-          </h3>
-          <span class="g-color-primary g-font-weight-700 g-font-size-16">{price}</span>
+                <style>
+                    #Image-18598732333113-0 {
+                        max-width: 600.0px;
+                        max-height: 800px;
+                    }
+                </style>
+                <img id="Image-18598732333113-0"
+                    class="responsive-image__image popup_cart_image secondary__img lazyautosizes ls-is-cached lazyloaded"
+                    src={imageHover.src}
+                    data-widths="[180,360,540,600]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1"
+                    alt={image.alt}
+                    data-srcset=""
+                    sizes="270px"
+                    srcset="">
+                <noscript>
+                    <img class="popup_cart_image secondary__img"
+                        src={imageHover.src}
+                        alt={image.alt}
+                        >
+                </noscript>
+            </a>
+            <a class="add-to-wishlist hintT-left wishlist" data-hint="Add to wishlist" href="/account/login"
+                data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away"
+                data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"
+                data-tippy-placement="left">
+                <i class="far fa-heart"></i>
+            </a>
         </div>
-      </article>
-    </div> -->
+        <div class="product-info single-product__content text-center">
+            <h6 class="title popup_cart_title"><a href="/collections/all/products/grey-tool">{title}</a></h6>
+            <span class="price">
+                <span id="product_current_price" class="discounted-price new"><span class="money"
+                        data-currency-usd="{price}">{price}</span></span>
+            </span>
 
-
-
-
-<div class="col-md-3 g-my-10">
-  <article class="info-v5-6 g-pos-rel g-bg-gray-dark-v2 g-bg-primary--hover g-color-white g-rounded-4 g-transition-0_3">
-    <img class="w-100" src={image.src} alt="Image Description" style="max-height: 255px;">
-    <div class="g-pa-15  text-center" >
-      <div class="g-mb-20">
-        <h3 class="h6 g-mb-5">{title}</h3>
-        <div class="js-rating info-v5-6__rating g-transition-0_3 g-color-primary g-color-gray-light-v5--hover g-font-size-11 g-mb-10" data-rating="5" data-spacing="5"></div>
-      </div>
-      <a class="btn btn-md u-btn-primary g-color-primary--hover g-bg-white--hover g-font-weight-600 g-font-size-11 text-uppercase" href={url}>More</a>
+        </div>
     </div>
-      <a href={url} class="u-link-v2"></a>
-  </article>
 </div>

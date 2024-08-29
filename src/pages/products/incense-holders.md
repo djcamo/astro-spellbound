@@ -5,6 +5,10 @@ image: {
   src: "/img/products/incense-holder-celtic.jpg",
   alt: "Incense Holders",
 }
+imageHover: {
+  src: "/img/products/incense-holder-celtic1.jpg",
+  alt: "Incense Holders",
+}
 description: Gumleaf Essentials is one of Australia's most reputable brands of essential oils
 active: true
 category: {

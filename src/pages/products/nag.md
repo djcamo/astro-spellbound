@@ -5,6 +5,10 @@ image: {
   src: "/img/products/nag-range.jpg",
   alt: "Nag Range",
 }
+imageHover: {
+  src: "/img/products/nag-range.jpg",
+  alt: "Nag Range",
+}
 description: Gumleaf Essentials is one of Australia's most reputable brands of essential oils
 active: true
 category: {

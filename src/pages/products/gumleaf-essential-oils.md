@@ -5,6 +5,10 @@ image: {
   src: "/img/products/PURE-ESSENTIAL-OILS.jpg",
   alt: "Gumleaf Essential Oils",
 }
+imageHover: {
+  src: "/img/products/PURE-ESSENTIAL-OILS.jpg",
+  alt: "Gumleaf Essential Oils",
+}
 description: Gumleaf Essentials is one of Australia's most reputable brands of essential oils
 active: true
 category: {

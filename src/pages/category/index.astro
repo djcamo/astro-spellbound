@@ -29,20 +29,29 @@ console.log(processedCats);
     <div class="row" id="categories">
         {
           Object.entries(processedCats).map(([key, val]) => (
-              <div class="col-sm-6 col-md-3 g-mb-30">
-                <article class="g-pos-rel g-rounded-4 g-brd-bottom g-brd-3 g-brd-gray-light-v4 g-brd-primary--hover text-center g-transition-0_3 g-transition--linear">
-                  <figure class="g-brd-top g-brd-left g-brd-right g-brd-1 g-brd-gray-light-v4" >
-                    <img class="w-100" src={val.image} alt="Image Description">
-                  </figure>
-                  <div class="g-bg-secondary g-pa-30">
-                    <h3 class="h4">
-                      <a class="g-color-main g-color-primary--hover g-text-underline--none--hover" href={`/category/${val.name}`.toLowerCase()}>{val.name}</a>
-                    </h3>
-                  </div>
-                </article>
-              </div>
+               <div class="col learts-mb-40">
+                <div class="category-banner4">
+                    <a href={`/category/${val.name}`.toLowerCase()} class="inner">
+                        <div class="image">
+                          <img class=" ls-is-cached lazyloaded" src={val.image} alt="">
+                        </div>
+                        <div class="content">
+                            <h3 class="title">
+                              {val.name}
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
           ))
         }
     </div>
   </section>
+
+  <style>
+  .category-banner4 .inner .image::before {border: 1px solid #ffffff;}
+  .category-banner4 .inner .content .title {color: #333333;}
+  .category-banner4 .inner .content {background-color: #e3e4f5 !important;}
+</style>
+
 </MainLayout>

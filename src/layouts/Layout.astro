@@ -1,33 +1,84 @@
 ---
-import Footer from '../components/Footer.astro';
-import MainHead from '../components/MainHead.astro';
 interface Props {
-	title: string;
+title: string;
 }
 
 const { title } = Astro.props;
 
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description">
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-		<link rel="stylesheet" href="/css/new.css">
-		<link rel="stylesheet" href="/css/font-awesome.min.css">
-		<link rel="stylesheet" href="/css/unify-components.css">
-		<link rel="stylesheet" href="/css/hamburgers.min.css">
-	</head>
-	<body>
-		<MainHead />
-		<slot />
-		<Footer/>
-	</body>
+<!doctype html>
+<html
+    class="js supports-no-cookies sizes websockets customelements history postmessage webworkers picture pointerevents webanimations webgl srcset flexbox cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside sizes websockets customelements history postmessage webworkers picture pointerevents webanimations webgl srcset flexbox cssanimations csscolumns csscolumns-width csscolumns-span csscolumns-fill csscolumns-gap csscolumns-rule csscolumns-rulecolor csscolumns-rulestyle csscolumns-rulewidth csscolumns-breakbefore csscolumns-breakafter csscolumns-breakinside"
+    lang="en" style="height: 100%; padding-bottom: 60px;"><!--<![endif]-->
+
+<head>
+    <!-- Basic and Helper page needs -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#72a499">
+
+    <title>
+        Learts Demo
+    </title>
+
+
+
+
+    <!-- CSS -->
+    <link href="//learts-demo.myshopify.com/cdn/shop/t/51/assets/timber.scss.css?v=177571282165090492921697889505"
+        rel="stylesheet" type="text/css" media="all">
+    <!-- Vendor CSS (Bootstrap & Icon Font) -->
+    <link href="//learts-demo.myshopify.com/cdn/shop/t/51/assets/bootstrap.min.css?v=90869400946681534311675935637"
+        rel="stylesheet" type="text/css" media="all">
+    <link href="//learts-demo.myshopify.com/cdn/shop/t/51/assets/themify-icons.css?v=17828378678609318721676282558"
+        rel="stylesheet" type="text/css" media="all">
+    <link href="//learts-demo.myshopify.com/cdn/shop/t/51/assets/customFonts.css?v=40388692542242771991675935637"
+        rel="stylesheet" type="text/css" media="all">
+    <link href="//learts-demo.myshopify.com/cdn/shop/t/51/assets/vendor.css?v=111603181540343972631675935637"
+        rel="stylesheet" type="text/css" media="all">
+
+
+
+    <!-- Link your style.css and responsive.css files below -->
+    <link href="/css/style.css"
+        rel="stylesheet" type="text/css" media="all">
+
+    <!-- Theme Default CSS -->
+    <link href="//learts-demo.myshopify.com/cdn/shop/t/51/assets/theme-default.css?v=152268000664024370901688644120"
+        rel="stylesheet" type="text/css" media="all">
+
+    <!-- Make your theme CSS calls here -->
+    <link href="/css/theme-custom.css"
+        rel="stylesheet" type="text/css" media="all">
+
+
+
+    <!-- Make your theme RTL CSS calls here -->
+    <link href="//learts-demo.myshopify.com/cdn/shop/t/51/assets/theme-responsive.css?v=87744342255140655021693373687"
+        rel="stylesheet" type="text/css" media="all">
+
+    <!-- Make all your dynamic CSS and Color calls here -->
+    <link href="/css/skin-and-color.css?v=114785602935928439741697889505"
+        rel="stylesheet" type="text/css" media="all">
+
+
+<body id="learts-demo" class="template-index " style="position: relative; min-height: 100%; top: 0px;">
+
+    <div class="wrapper ">
+        <Header/>
+        <main class="">
+            <slot />
+        </main>
+
+        <Footer/>
+
+    </div>
+
+</body>
 
 </html>
-
