@@ -40,7 +40,6 @@ const { title, price, image, category, imageHover } = frontmatter;
         </div>
     </div>
 </section>
-
 <div class="container g-py-50">
     <div class="row">
         <div class="col-lg-7">
@@ -57,46 +56,24 @@ const { title, price, image, category, imageHover } = frontmatter;
                 </div>
             </div>
         </div>
-
         <div class="col-lg-5">
             <div class="g-px-40--lg g-pt-70">
                 <div class="g-mb-30">
                     <h1 class="g-font-weight-300 mb-4">{title}</h1>
-
                     <slot />
                 </div>
                 <div class="g-mb-30">
                     <h2 class="g-color-gray-dark-v5 g-font-weight-400 g-font-size-12 text-uppercase mb-2">Price</h2>
                     <span class="g-color-black g-font-weight-500 g-font-size-30 mr-2">{price}</span>
                 </div>
-
-                <!-- <div class="d-flex justify-content-between align-items-center g-brd-bottom g-brd-gray-light-v3 py-3 g-mb-30"
-                    role="tab">
-                    <h5 class="g-color-gray-dark-v5 g-font-weight-400 g-font-size-default mb-0">Available Scents</h5>
-                    <div class="js-quantity input-group u-quantity-v1 g-width-150 g-brd-primary--focus">
-                        <select class="js-result form-control g-font-size-13 rounded-0" >
-                            <option value="">-- Please Select --</option>
-                            <option value="">Basil</option>
-                            <option value="">Bergamot</option>
-                            <option value="">Cedarwood</option>
-                            <option value="">Cinnamon</option>
-                            <option value="">Clary Sage</option>
-                            <option value="">Frankincence</option>
-                            <option value="">Lavender</option>
-                        </select>
-                    </div>
-                </div> -->
-
                 <div class="row g-mx-minus-5 g-mb-20">
                     <div class="col g-px-5 g-mb-10">
-                        <button class="btn btn-block u-btn-primary g-font-size-12 text-uppercase g-py-15 g-px-25"
+                        <button class="ajax-spin-cart btn btn-dark btn-outline-hover-dark"
                             type="button">
                             Place Order <i class="align-middle ml-2 icon-finance-100 u-line-icon-pro"></i>
                         </button>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </div>

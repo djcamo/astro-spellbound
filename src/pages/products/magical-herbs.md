@@ -6,7 +6,7 @@ image: {
   alt: "Magical Herbs",
 }
 imageHover: {
-  src: "/img/products/herbs.jpg",
+  src: "/img/products/herbs_smoldering.jpg",
   alt: "Magical Herbs",
 }
 description: Herbs for Incense & Magical Use.

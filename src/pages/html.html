@@ -1,75 +1,472 @@
-<div class="col-6 col-sm-6 col-lg-4 col-md-6 col-sm-6 mb-45grid-item col">
+---
+import Layout from "../layouts/Layout.astro";
+const { frontmatter, url, tagType } = Astro.props;
 
-    <div class="product single-product  32891398553657   ">
-        <div class="product-thumb single-product__image"><!-- Product Image Lazyload with Retina  -->
-            <a class="image image-wrap" href="/collections/all/products/grey-tool">
+const Tag = tagType;
 
-                <style>
-                    #Image-18598732300345-0 {
-                        max-width: 600.0px;
-                        max-height: 800px;
-                    }
-                </style><img id="Image-18598732300345-0"
-                    class="responsive-image__image popup_cart_image lazyautosizes ls-is-cached lazyloaded" src="//learts-demo.myshopify.com/cdn/shop/t/22/assets/ajax_loader.svg?v=109404092073067859101629286602
-                    " data-widths="[180,360,540,600]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="3D Attractive Pot"
-                    data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_180x.jpg?v=1611054876 180w, //learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_360x.jpg?v=1611054876 360w, //learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_540x.jpg?v=1611054876 540w, //learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_600x.jpg?v=1611054876 600w"
-                    sizes="270px"
-                    srcset="//learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_180x.jpg?v=1611054876 180w, //learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_360x.jpg?v=1611054876 360w, //learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_540x.jpg?v=1611054876 540w, //learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_600x.jpg?v=1611054876 600w">
-                <noscript>
-                    <img class="popup_cart_image"
-                        src="//learts-demo.myshopify.com/cdn/shop/products/product-40-600x800_2048x2048.jpg?v=1611054876"
-                        alt="3D Attractive Pot">
-                </noscript>
-
-                <style>
-                    #Image-18598732333113-0 {
-                        max-width: 600.0px;
-                        max-height: 800px;
-                    }
-                </style><img id="Image-18598732333113-0"
-                    class="responsive-image__image popup_cart_image secondary__img lazyautosizes ls-is-cached lazyloaded"
-                    src="//learts-demo.myshopify.com/cdn/shop/t/22/assets/ajax_loader.svg?v=109404092073067859101629286602
-                    " data-widths="[180,360,540,600]" data-aspectratio="0.75" data-sizes="auto" tabindex="-1" alt="3D Attractive Pot"
-                    data-srcset="//learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_180x.jpg?v=1611054876 180w, //learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_360x.jpg?v=1611054876 360w, //learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_540x.jpg?v=1611054876 540w, //learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_600x.jpg?v=1611054876 600w"
-                    sizes="270px"
-                    srcset="//learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_180x.jpg?v=1611054876 180w, //learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_360x.jpg?v=1611054876 360w, //learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_540x.jpg?v=1611054876 540w, //learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_600x.jpg?v=1611054876 600w">
-                <noscript>
-                    <img class="popup_cart_image secondary__img"
-                        src="//learts-demo.myshopify.com/cdn/shop/products/product-41-600x800_2048x2048.jpg?v=1611054876"
-                        alt="3D Attractive Pot">
-                </noscript>
-            </a>
-
-            <a class="add-to-wishlist hintT-left wishlist" data-hint="Add to wishlist" href="/account/login"
-                data-tippy-content="Add To Wishlist" data-tippy-inertia="true" data-tippy-animation="shift-away"
-                data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"
-                data-tippy-placement="left">
-                <i class="far fa-heart"></i>
-            </a>
+const { title, price, image, category, imageHover } = frontmatter;
 
 
-        </div>
-        <div class="product-info single-product__content text-center">
-            <h6 class="title popup_cart_title"><a href="/collections/all/products/grey-tool">3D Attractive Pot</a></h6>
-            <span class="price">
-                <span id="product_current_price" class="discounted-price new"><span class="money"
-                        data-currency-usd="$110.00">$110.00</span></span>
-
-                <span class="main-price discounted old"><span class="money"
-                        data-currency-usd="$130.00">$130.00</span></span>
-
-            </span>
+---
 
 
+<Layout title="Welcome to About Us">
 
-            <div class="product-description">
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a</p>
-                <p>piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                    Latin professor at Hampden-Sydney College in Virginia,</p>
+
+    <div class="section section-padding border-bottom  section-normal ">
+        <div class="container">
+            <div class="row learts-mb-n40">
+                <div class="col-lg-12">
+                    <div class="shop-product">
+                        <div class="sticky-sidebar-container row pb-100 pb-md-85 pb-sm-65" style="position: relative;">
+                            <div class="   col-lg-6 col-md-6  learts-mb-40" data-more-view-product="">
+
+                                <div class="product-images sticky-sidebar product__sticky_content product__slide_wrapper"
+                                    style="">
+                                    <div class="product-gallery-sticky sticky-sidebar-inner"
+                                        style="position: relative;">
+
+                                        <div class="shop-product__big-image-gallery-wrapper product__slide_wrapper">
+                                            <div
+                                                class="product-photo-container product_media_gallery product-gallery-slider slick-carousel-js slick-initialized slick-slider slick-dotted">
+                                                <button class="slick-prev slick-arrow" style=""><i
+                                                        class="ti-angle-left"></i></button>
+                                                <div class="slick-list">
+                                                    <div class="slick-track"
+                                                        style="opacity: 1; width: 3990px; transform: translate3d(-570px, 0px, 0px);">
+                                                        <div class="product-zoom thumb filter-brush-dustpan-set slick-slide slick-cloned"
+                                                            data-slick-index="-1" aria-hidden="true"
+                                                            style="width: 570px;" tabindex="-1">
+
+                                                            <div class="shop-product-rightside-icons ">
+                                                                <span class="enlarge-icon">
+                                                                    <a class="product-gallery-popup fancybox hintT-left"
+                                                                        href="//learts-demo.myshopify.com/cdn/shop/products/product-37-540x720_1024x1024.jpg?v=1609321145"
+                                                                        rel="gallery1" data-fancybox="images"
+                                                                        data-hint="Click to enlarge" tabindex="-1">
+                                                                        <i class="far fa-expand"></i>
+                                                                        <img class="d-none" src={image.src}
+                                                                            alt="Brush &amp; Dustpan Set">
+                                                                    </a>
+                                                                </span>
+                                                            </div>
+
+                                                            <a data-image="//learts-demo.myshopify.com/cdn/shop/products/product-37-540x720_1024x1024.jpg?v=1609321145"
+                                                                class="product-zoom" href="javascript: void(0)"
+                                                                tabindex="-1">
+                                                                <img id="" alt="Brush &amp; Dustpan Set"
+                                                                    class="product_variant_image lazyautosizes ls-is-cached lazyloaded"
+                                                                    src={image.src} data-src={image.src}
+                                                                    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                                                                    data-aspectratio="//learts-demo.myshopify.com/cdn/shop/products/product-37-540x720_1024x1024.jpg?v=1609321145"
+                                                                    data-sizes="auto" sizes="570px">
+                                                            </a>
+                                                        </div>
+                                                        <div class="product-zoom thumb filter-brush-dustpan-set slick-slide slick-current slick-active"
+                                                            data-slick-index="0" aria-hidden="false"
+                                                            style="width: 570px; position: relative; overflow: hidden;"
+                                                            role="tabpanel" id="slick-slide00">
+
+                                                            <div class="shop-product-rightside-icons ">
+                                                                <span class="enlarge-icon">
+                                                                    <a class="product-gallery-popup fancybox hintT-left"
+                                                                        href="//learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_1024x1024.jpg?v=1609321145"
+                                                                        rel="gallery1" data-fancybox="images"
+                                                                        data-hint="Click to enlarge" tabindex="0">
+                                                                        <i class="far fa-expand"></i>
+                                                                        <img class="d-none" src={image.src}
+                                                                            alt="Brush &amp; Dustpan Set">
+                                                                    </a>
+                                                                </span>
+                                                            </div>
+
+                                                            <a data-image="//learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_1024x1024.jpg?v=1609321145"
+                                                                class="product-zoom" href="javascript: void(0)"
+                                                                tabindex="0"
+                                                                style="position: relative; overflow: hidden;">
+                                                                <img id="product-featured-image-10773551382585"
+                                                                    alt="Brush &amp; Dustpan Set"
+                                                                    class="product_variant_image lazyautosizes ls-is-cached lazyloaded"
+                                                                    src={image.src} data-src={image.src}
+                                                                    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                                                                    data-aspectratio="//learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_1024x1024.jpg?v=1609321145"
+                                                                    data-sizes="auto" sizes="570px">
+                                                                <img role="presentation" alt="" src={image.src}
+                                                                    class="zoomImg"
+                                                                    style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 540px; height: 720px; border: none; max-width: none; max-height: none;"></a>
+                                                            <img role="presentation" alt="" src={image.src}
+                                                                class="zoomImg"
+                                                                style="position: absolute; top: 3.72697px; left: 7.71053px; opacity: 1; width: 540px; height: 720px; border: none; max-width: none; max-height: none;">
+                                                        </div>
+                                                        <div class="product-zoom thumb filter-brush-dustpan-set slick-slide"
+                                                            data-slick-index="1" aria-hidden="true"
+                                                            style="width: 570px; position: relative; overflow: hidden;"
+                                                            tabindex="-1" role="tabpanel" id="slick-slide01">
+
+                                                            <div class="shop-product-rightside-icons ">
+                                                                <span class="enlarge-icon">
+                                                                    <a class="product-gallery-popup fancybox hintT-left"
+                                                                        href="" rel="gallery1" data-fancybox="images"
+                                                                        data-hint="Click to enlarge" tabindex="-1">
+                                                                        <i class="far fa-expand"></i>
+                                                                        <img class="d-none" src={image.src}
+                                                                            alt="Brush &amp; Dustpan Set">
+                                                                    </a>
+                                                                </span>
+                                                            </div>
+
+                                                            <a data-image="" class="product-zoom"
+                                                                href="javascript: void(0)" tabindex="-1"
+                                                                style="position: relative; overflow: hidden;">
+                                                                <img id="product-featured-image-10773551415353"
+                                                                    alt="Brush &amp; Dustpan Set"
+                                                                    class="product_variant_image lazyautosizes ls-is-cached lazyloaded"
+                                                                    src={image.src} data-src={image.src}
+                                                                    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                                                                    data-aspectratio="" data-sizes="auto" sizes="570px">
+                                                                <img role="presentation" alt="" src={image.src}
+                                                                    class="zoomImg"
+                                                                    style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 540px; height: 720px; border: none; max-width: none; max-height: none;"></a>
+                                                            <img role="presentation" alt="" src={image.src}
+                                                                class="zoomImg"
+                                                                style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 540px; height: 720px; border: none; max-width: none; max-height: none;">
+                                                        </div>
+                                                        <div class="product-zoom thumb filter-brush-dustpan-set slick-slide"
+                                                            data-slick-index="2" aria-hidden="true"
+                                                            style="width: 570px; position: relative; overflow: hidden;"
+                                                            tabindex="-1" role="tabpanel" id="slick-slide02">
+
+                                                            <div class="shop-product-rightside-icons ">
+                                                                <span class="enlarge-icon">
+                                                                    <a class="product-gallery-popup fancybox hintT-left"
+                                                                        href="//learts-demo.myshopify.com/cdn/shop/products/product-37-540x720_1024x1024.jpg?v=1609321145"
+                                                                        rel="gallery1" data-fancybox="images"
+                                                                        data-hint="Click to enlarge" tabindex="-1">
+                                                                        <i class="far fa-expand"></i>
+                                                                        <img class="d-none" src={image.src}
+                                                                            alt="Brush &amp; Dustpan Set">
+                                                                    </a>
+                                                                </span>
+                                                            </div>
+
+                                                            <a data-image="//learts-demo.myshopify.com/cdn/shop/products/product-37-540x720_1024x1024.jpg?v=1609321145"
+                                                                class="product-zoom" href="javascript: void(0)"
+                                                                tabindex="-1"
+                                                                style="position: relative; overflow: hidden;">
+                                                                <img id="product-featured-image-10773551448121"
+                                                                    alt="Brush &amp; Dustpan Set"
+                                                                    class="product_variant_image lazyautosizes ls-is-cached lazyloaded"
+                                                                    src={image.src} data-src={image.src}
+                                                                    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                                                                    data-aspectratio="//learts-demo.myshopify.com/cdn/shop/products/product-37-540x720_1024x1024.jpg?v=1609321145"
+                                                                    data-sizes="auto" sizes="570px">
+                                                                <img role="presentation" alt="" src={image.src}
+                                                                    class="zoomImg"
+                                                                    style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 540px; height: 720px; border: none; max-width: none; max-height: none;"></a>
+                                                            <img role="presentation" alt="" src={image.src}
+                                                                class="zoomImg"
+                                                                style="position: absolute; top: 0px; left: 0px; opacity: 0; width: 540px; height: 720px; border: none; max-width: none; max-height: none;">
+                                                        </div>
+                                                        <div class="product-zoom thumb filter-brush-dustpan-set slick-slide slick-cloned"
+                                                            data-slick-index="3" aria-hidden="true"
+                                                            style="width: 570px;" tabindex="-1">
+
+                                                            <div class="shop-product-rightside-icons ">
+                                                                <span class="enlarge-icon">
+                                                                    <a class="product-gallery-popup fancybox hintT-left"
+                                                                        href="//learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_1024x1024.jpg?v=1609321145"
+                                                                        rel="gallery1" data-fancybox="images"
+                                                                        data-hint="Click to enlarge" tabindex="-1">
+                                                                        <i class="far fa-expand"></i>
+                                                                        <img class="d-none" src={image.src}
+                                                                            alt="Brush &amp; Dustpan Set">
+                                                                    </a>
+                                                                </span>
+                                                            </div>
+
+                                                            <a data-image="//learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_1024x1024.jpg?v=1609321145"
+                                                                class="product-zoom" href="javascript: void(0)"
+                                                                tabindex="-1">
+                                                                <img id="" alt="Brush &amp; Dustpan Set"
+                                                                    class="product_variant_image lazyautosizes ls-is-cached lazyloaded"
+                                                                    src={image.src} data-src={image.src}
+                                                                    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                                                                    data-aspectratio="//learts-demo.myshopify.com/cdn/shop/products/product-35-540x720_1024x1024.jpg?v=1609321145"
+                                                                    data-sizes="auto" sizes="570px">
+                                                            </a>
+                                                        </div>
+                                                        <div class="product-zoom thumb filter-brush-dustpan-set slick-slide slick-cloned"
+                                                            data-slick-index="4" aria-hidden="true"
+                                                            style="width: 570px;" tabindex="-1">
+
+                                                            <div class="shop-product-rightside-icons ">
+                                                                <span class="enlarge-icon">
+                                                                    <a class="product-gallery-popup fancybox hintT-left"
+                                                                        href="" rel="gallery1" data-fancybox="images"
+                                                                        data-hint="Click to enlarge" tabindex="-1">
+                                                                        <i class="far fa-expand"></i>
+                                                                        <img class="d-none" src={image.src}
+                                                                            alt="Brush &amp; Dustpan Set">
+                                                                    </a>
+                                                                </span>
+                                                            </div>
+
+                                                            <a data-image="" class="product-zoom"
+                                                                href="javascript: void(0)" tabindex="-1">
+                                                                <img id="" alt="Brush &amp; Dustpan Set"
+                                                                    class="lazyload product_variant_image"
+                                                                    src={image.src} data-src={image.src}
+                                                                    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                                                                    data-aspectratio="" data-sizes="auto">
+                                                            </a>
+                                                        </div>
+                                                        <div class="product-zoom thumb filter-brush-dustpan-set slick-slide slick-cloned"
+                                                            data-slick-index="5" aria-hidden="true"
+                                                            style="width: 570px;" tabindex="-1">
+
+                                                            <div class="shop-product-rightside-icons ">
+                                                                <span class="enlarge-icon">
+                                                                    <a class="product-gallery-popup fancybox hintT-left"
+                                                                        href="//learts-demo.myshopify.com/cdn/shop/products/product-37-540x720_1024x1024.jpg?v=1609321145"
+                                                                        rel="gallery1" data-fancybox="images"
+                                                                        data-hint="Click to enlarge" tabindex="-1">
+                                                                        <i class="far fa-expand"></i>
+                                                                        <img class="d-none" src={image.src}
+                                                                            alt="Brush &amp; Dustpan Set">
+                                                                    </a>
+                                                                </span>
+                                                            </div>
+
+                                                            <a data-image="//learts-demo.myshopify.com/cdn/shop/products/product-37-540x720_1024x1024.jpg?v=1609321145"
+                                                                class="product-zoom" href="javascript: void(0)"
+                                                                tabindex="-1">
+                                                                <img id="" alt="Brush &amp; Dustpan Set"
+                                                                    class="lazyload product_variant_image"
+                                                                    src={image.src} data-sizes="auto">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+
+
+
+
+                                                <button class="slick-next slick-arrow" style=""><i
+                                                        class="ti-angle-right"></i></button>
+                                                <ul class="slick-dots" style="" role="tablist">
+                                                    <li class="slick-active" role="presentation"><button type="button"
+                                                            role="tab" id="slick-slide-control00"
+                                                            aria-controls="slick-slide00" aria-label="1 of 3"
+                                                            tabindex="0" aria-selected="true">1</button></li>
+                                                    <li role="presentation"><button type="button" role="tab"
+                                                            id="slick-slide-control01" aria-controls="slick-slide01"
+                                                            aria-label="2 of 3" tabindex="-1">2</button></li>
+                                                    <li role="presentation"><button type="button" role="tab"
+                                                            id="slick-slide-control02" aria-controls="slick-slide02"
+                                                            aria-label="3 of 3" tabindex="-1">3</button></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="product-thumb-slider product_media_nav shop-product__small-image-gallery-wrapper horizontal_slide slick-initialized slick-slider"
+                                                data-rows="4" data-vertical="false" data-vertical-sm="false">
+                                                <div class="slick-list draggable">
+                                                    <div class="slick-track"
+                                                        style="opacity: 1; width: 450px; transform: translate3d(0px, 0px, 0px);">
+                                                        <div class="item pro_gallery_item filter-brush-dustpan-set slick-slide slick-current slick-active"
+                                                            data-slick-index="0" aria-hidden="false"
+                                                            style="width: 150px;">
+                                                            <div class="product-single__media"
+                                                                data-media-id="10773551382585">
+                                                                <a href="javascript:void(0)" tabindex="0">
+                                                                    <img src={image.src} alt="Brush &amp; Dustpan Set">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item pro_gallery_item filter-brush-dustpan-set slick-slide slick-active"
+                                                            data-slick-index="1" aria-hidden="false"
+                                                            style="width: 150px;">
+                                                            <div class="product-single__media"
+                                                                data-media-id="10773551415353">
+                                                                <a href="javascript:void(0)" tabindex="0">
+                                                                    <img src={image.src} alt="Brush &amp; Dustpan Set">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="item pro_gallery_item filter-brush-dustpan-set slick-slide slick-active"
+                                                            data-slick-index="2" aria-hidden="false"
+                                                            style="width: 150px;">
+                                                            <div class="product-single__media"
+                                                                data-media-id="10773551448121">
+                                                                <a href="javascript:void(0)" tabindex="0">
+                                                                    <img src={image.src} alt="Brush &amp; Dustpan Set">
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+
+
+                                            </div>
+
+                                        </div>
+                                        <!--=======  shop product small image gallery  =======-->
+                                        <div dir="ltr" class="resize-sensor"
+                                            style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;">
+                                            <div class="resize-sensor-expand"
+                                                style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;">
+                                                <div
+                                                    style="position: absolute; left: 0px; top: 0px; transition: all; width: 580px; height: 960px;">
+                                                </div>
+                                            </div>
+                                            <div class="resize-sensor-shrink"
+                                                style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;">
+                                                <div
+                                                    style="position: absolute; left: 0px; top: 0px; transition: all; width: 200%; height: 200%;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+                            <div class=" col-lg-6 col-md-6    product-shop  learts-mb-40">
+                                <form method="post" action="/cart/add" id="AddToCartForm" accept-charset="UTF-8"
+                                    class="product-content-inner" enctype="multipart/form-data" novalidate="novalidate">
+                                    <input type="hidden" name="form_type" value="product"><input type="hidden"
+                                        name="utf8" value="✓">
+                                    <div class="shop-product__description product-summery">
+
+                                        <div class="product-ratings">
+                                            <span class="ating-active shopify-product-reviews-badge"
+                                                data-id="4804374233145"></span>
+                                        </div>
+                                        <h3 id="popup_cart_title" class="product-title">{title}</h3>
+                                        <div class="product-price price">
+                                            <span class="discounted-price main-price discounted "
+                                                id="ProductPrice"><span class="money"
+                                                    data-currency-usd="$50.00">{price}</span></span>
+                                            <small class="unit_price_box caption  hidden">
+                                                <dd>
+                                                    <span id="product__unit_price"></span>
+                                                    <span aria-hidden="true">/</span>
+                                                    <span id="product__unit_price_value">
+                                                    </span>
+                                                </dd>
+                                            </small>
+                                        </div>
+
+
+                                        <div class="shop-product__short-desc">
+                                        </div>
+                                        <div class="product-variations">
+                                            <div id="product-variants" class="product-variant-option">
+
+                                                <input type="hidden" name="id" value="32891403173945">
+
+                                            </div>
+
+                                            <style>
+                                                .product-variant-option .selector-wrapper {
+                                                    display: none;
+                                                }
+                                            </style>
+                                        </div>
+
+                                        <div class="product-variations">
+
+                                        </div>
+                                        <div class="product-buttons shop-product__buttons sticky__pro_button"><a
+                                                class="action-wishlist btn btn-icon btn-outline-body btn-hover-dark hintT-top"
+                                                data-hint="Add to Wishlist" href="javascript: void(0)"
+                                                button-wishlist="" data-product-handle="5-simple-product">
+                                                <span class="add-wishlist" data-tippy-content="Add To Wishlist"
+                                                    data-tippy-inertia="true" data-tippy-animation="shift-away"
+                                                    data-tippy-delay="50" data-tippy-arrow="true"
+                                                    data-tippy-theme="sharpborder" data-tippy-placement="top"> <i
+                                                        class="fal fa-heart"></i></span>
+                                                <span class="loading-wishlist"><i
+                                                        class="fa animated rotateIn infinite fa-spinner"> </i></span>
+                                                <span class="remove-wishlist" data-tippy-content="Remove From Wishlist"
+                                                    data-tippy-inertia="true" data-tippy-animation="shift-away"
+                                                    data-tippy-delay="50" data-tippy-arrow="true"
+                                                    data-tippy-theme="sharpborder" data-tippy-placement="top"><i
+                                                        class="fal fa-heart"></i></span>
+                                            </a>
+
+
+
+                                            <div class="product-cart-action"><button type="submit"
+                                                    class="ajax-spin-cart btn btn-dark btn-outline-hover-dark"
+                                                    id="AddToCart">
+                                                    <span>
+                                                        <span class="cart-title" id="AddToCartText"><i
+                                                                class="fal fa-shopping-cart"></i> </span>Add to cart
+                                                        <span class="cart-loading"><i class="fal fa-spinner"></i></span>
+                                                        <span class="cart-added"><i class="fal fa-check"></i></span>
+                                                        <span class="cart-unavailable">Uavailable</span>
+                                                    </span>
+                                                </button>
+                                                <script>
+                                                    jQuery('#AddToCart').click(function (e) {
+                                                        e.preventDefault();
+                                                        Shopify.addItemFromFormStart('AddToCartForm', 4804374233145);
+                                                    });
+                                                </script>
+                                            </div>
+
+
+                                            <a href="#" data-hint="Compare" data-tippy-content="Compare"
+                                                data-tippy-inertia="true" data-tippy-animation="shift-away"
+                                                data-tippy-delay="50" data-tippy-arrow="true"
+                                                data-tippy-theme="sharpborder" data-placement="left"
+                                                class="btn btn-icon btn-outline-body btn-hover-dark compare popup-ajax add_compare hintT-top"
+                                                data-pid="5-simple-product"><i class="fal fa-random"></i></a>
+                                        </div>
+
+
+
+
+
+
+                                    </div>
+                                    <input type="hidden" name="product-id" value="4804374233145"><input type="hidden"
+                                        name="section-id" value="template--14115324854329__main">
+                                </form>
+
+                            </div>
+
+
+
+                            <div dir="ltr" class="resize-sensor"
+                                style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;">
+                                <div class="resize-sensor-expand"
+                                    style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;">
+                                    <div
+                                        style="position: absolute; left: 0px; top: 0px; transition: all; width: 1210px; height: 1164px;">
+                                    </div>
+                                </div>
+                                <div class="resize-sensor-shrink"
+                                    style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;">
+                                    <div
+                                        style="position: absolute; left: 0px; top: 0px; transition: all; width: 200%; height: 200%;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=======  End of shop product content  =======-->
+                </div>
             </div>
-
         </div>
-
     </div>
 
-</div>
+
+</Layout>

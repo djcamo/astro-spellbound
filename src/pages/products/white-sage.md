@@ -5,6 +5,10 @@ image: {
   src: "/img/products/white_sage.jpg",
   alt: "Charcoal",
 }
+imageHover: {
+  src: "/img/products/whitesage.webp",
+  alt: "Charcoal",
+}
 description: White Sage Stick 12.5cm - Medium
 active: true
 category: {

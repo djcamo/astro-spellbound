@@ -5,6 +5,10 @@ image: {
   src: "/img/products/tarot-bible-book.jpg",
   alt: "Tarot Bible",
 }
+imageHover: {
+  src: "/img/products/tarot-bible-book.jpg",
+  alt: "Tarot Bible",
+}
 description: Starting with the basics--choosing the best pack
 active: true
 category: {
