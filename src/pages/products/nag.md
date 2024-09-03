@@ -6,14 +6,14 @@ image: {
   alt: "Nag Range",
 }
 imageHover: {
-  src: "/img/products/nag-range.jpg",
+  src: "/img/products/nag.webp",
   alt: "Nag Range",
 }
 description: Gumleaf Essentials is one of Australia's most reputable brands of essential oils
 active: true
 category: {
     name: "Incence",
-    image: "/img/catalogs/incense.jpg",
+    image: "/img/category/incense.jpg",
 }
 price: $12.00
 ---

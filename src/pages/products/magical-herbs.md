@@ -13,7 +13,7 @@ description: Herbs for Incense & Magical Use.
 active: true
 category: {
     name: "Herbs",
-    image: "/img/catalogs/herbs.jpg",
+    image: "/img/category/herbs.webp",
 }
 price: from $12.00
 ---

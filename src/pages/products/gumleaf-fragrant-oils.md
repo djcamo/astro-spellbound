@@ -6,14 +6,14 @@ image: {
   alt: "Gumleaf Fragrant Oils",
 }
 imageHover: {
-  src: "/img/products/gumleaf-fregrant.jpg",
+  src: "/img/products/fragrant.webp",
   alt: "Gumleaf Fragrant Oils",
 }
 description: With over 60 fragrances to choose from including traditional favourites, gourmet delicacies, Australian natives and contemporary new blends.
 active: true
 category: {
     name: "Aromatherapy",
-    image: "/img/catalogs/essential-oils.jpg",
+    image: "/img/category/aromatherapy.jpg",
 }
 price: from $15.00
 ---

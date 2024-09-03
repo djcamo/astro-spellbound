@@ -13,7 +13,7 @@ description: White Sage Stick 12.5cm - Medium
 active: true
 category: {
     name: "Herbs",
-    image: "/img/catalogs/herbs.jpg",
+    image: "/img/category/herbs.webp",
 }
 price: $12.00
 ---

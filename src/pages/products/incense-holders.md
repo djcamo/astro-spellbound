@@ -13,7 +13,7 @@ description: Gumleaf Essentials is one of Australia's most reputable brands of e
 active: true
 category: {
     name: "Incence",
-    image: "/img/catalogs/incense.jpg",
+    image: "/img/category/incense.jpg",
 }
 price: $12.00
 ---

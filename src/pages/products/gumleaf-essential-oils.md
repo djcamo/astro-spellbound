@@ -2,18 +2,18 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Gumleaf Essential Oils
 image: {
-  src: "/img/products/PURE-ESSENTIAL-OILS.jpg",
+  src: "/img/products/pure-essential-oils.jpg",
   alt: "Gumleaf Essential Oils",
 }
 imageHover: {
-  src: "/img/products/PURE-ESSENTIAL-OILS.jpg",
+  src: "/img/products/fragrant.webp",
   alt: "Gumleaf Essential Oils",
 }
 description: Gumleaf Essentials is one of Australia's most reputable brands of essential oils
 active: true
 category: {
     name: "Aromatherapy",
-    image: "/img/catalogs/essential-oils.jpg",
+    image: "/img/category/aromatherapy.jpg",
 }
 price: from $16.00
 ---

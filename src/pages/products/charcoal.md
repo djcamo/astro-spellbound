@@ -13,7 +13,7 @@ description: Gumleaf Essentials is one of Australia's most reputable brands of e
 active: true
 category: {
     name: "Herbs",
-    image: "/img/catalogs/herbs.jpg",
+    image: "/img/category/herbs.webp",
 }
 price: $12.00
 ---
