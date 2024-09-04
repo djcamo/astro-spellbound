@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Rider-Waite Tarot Deck - Standard
 image: {
-  src: "/img/products/rider_tarot.jpg",
+  src: "/img/products/standardriderwaitecanva.webp",
   alt: "Rider-Waite Tarot Deck - Standard",
 }
 imageHover: {

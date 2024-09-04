@@ -2,11 +2,11 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Tarot Bible
 image: {
-  src: "/img/products/tarot-bible-book.jpg",
+  src: "/img/products/tarot-bible.webp",
   alt: "Tarot Bible",
 }
 imageHover: {
-  src: "/img/products/tarot-bible-book.jpg",
+  src: "/img/products/tarot-bible-back.webp",
   alt: "Tarot Bible",
 }
 description: Starting with the basics--choosing the best pack

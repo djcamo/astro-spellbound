@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: White Sage
 image: {
-  src: "/img/products/white_sage.jpg",
+  src: "/img/products/sage-bowl.jpg",
   alt: "Charcoal",
 }
 imageHover: {

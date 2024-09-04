@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Rider Tarot Deck - Pocket Edition
 image: {
-  src: "/img/products/rider_tarot_mini.jpg",
+  src: "/img/products/pocketriderwaitecanva.webp",
   alt: "Rider Tarot Deck - Pocket Edition",
 }
 imageHover: {
