@@ -1,79 +1,16 @@
 ---
 import LayoutHome from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Bestsellers from '../components/Bestsellers.astro';
 import Hours from '../components/Hours.astro';
+import Showcase from '../components/Showcase.astro';
 import bg from '../img/bg.jpg';
 import tarot from '../img/tarot.png';
-import fairy from '../img/fairy.png';
-import reiki from '../img/reiki.png';
 ---
 
 <LayoutHome title="Welcome to Spellbound.">
 
-
-<section class="section-padding">
-
-  <div class="container">
-    <div class="text-center g-my-50 u-heading-v3-1 g-mb-40">
-      <h2 class="text-uppercase h2 u-heading-v3__title g-brd-primary">Best Sellers
-      </h2>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-3 col-sm-6 g-mb-30">
-        <figure class="best-seller">
-          <img class="w-100" src="img/products/PURE-aromatherapy.jpg" alt="Image Description">
-          <div class="text-center g-bg-white g-pa-25">
-            <div class="g-mb-15">
-              <h4 class="h5 g-color-black g-mb-5">Essential Oils</h4>
-              <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Aromatherapy</em>
-            </div>
-          </div>
-        </figure>
-      </div>
-      <div class="col-lg-3 col-sm-6 g-mb-30">
-        <figure class="best-seller">
-          <img class="w-100 h-100" src="img/products/PURE-aromatherapy.jpg" alt="Image Description">
-          <div class="text-center g-bg-white g-pa-25">
-            <div class="g-mb-15">
-              <h4 class="h5 g-color-black g-mb-5">Essential Oils</h4>
-              <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Aromatherapy</em>
-            </div>
-          </div>
-        </figure>
-      </div>
-      <div class="col-lg-3 col-sm-6 g-mb-30">
-        <figure class="best-seller">
-          <img class="w-100 h-100" src="img/products/PURE-aromatherapy.jpg" alt="Image Description">
-          <div class="text-center g-bg-white g-pa-25">
-            <div class="g-mb-15">
-              <h4 class="h5 g-color-black g-mb-5">Essential Oils</h4>
-              <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Aromatherapy</em>
-            </div>
-          </div>
-        </figure>
-      </div>
-      <div class="col-lg-3 col-sm-6 g-mb-30">
-        <figure class="best-seller">
-          <img class="w-100 h-100" src="img/products/PURE-aromatherapy.jpg" alt="Image Description">
-          <div class="text-center g-bg-white g-pa-25">
-            <div class="g-mb-15">
-              <h4 class="h5 g-color-black g-mb-5">Essential Oils</h4>
-              <em class="d-block g-font-style-normal g-font-size-11 text-uppercase g-color-primary">Aromatherapy</em>
-            </div>
-          </div>
-        </figure>
-      </div>
-
-
-
-
-
-    </div>
-
-  </div>
-</section>
-
+<Showcase />
+<Bestsellers />
 
 <style>
   .auto-init{
@@ -98,46 +35,46 @@ import reiki from '../img/reiki.png';
     border: none;
     background-color: #fff;
     border: 1px solid rgba(0,0,0,.125);
-}
+  }
 
-.image-card {
-    height: 200px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
+  .image-card {
+      height: 200px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden
+  }
 
-.image-card-1 {
-    background-color: #18A4F7
-}
+  .image-card-1 {
+      background-color: #18A4F7
+  }
 
-.image-card-2 {
-    background-color: #00D7D2
-}
+  .image-card-2 {
+      background-color: #00D7D2
+  }
 
-.image-card-3 {
-    background-color: #FF75A0
-}
+  .image-card-3 {
+      background-color: #FF75A0
+  }
 
-.image-card img {
-    height: 150px;
-    width: 150px;
-    object-fit: cover
-}
+  .image-card img {
+      height: 150px;
+      width: 150px;
+      object-fit: cover
+  }
 
-.card-text {
-    font-size: 13px
-}
+  .card-text {
+      font-size: 13px
+  }
 
-.card-body a {
-    font-size: 12px
-}
+  .card-body a {
+      font-size: 12px
+  }
 
-.about span {
-    font-size: 12px
-}
+  .about span {
+      font-size: 12px
+  }
 </style>
 
 
@@ -160,7 +97,7 @@ import reiki from '../img/reiki.png';
         </div>
         <div class="col-md-4">
             <div class="card">
-                <div class="card-img-top image-card image-card-2"> <img src={fairy} alt="..."> </div>
+                <div class="card-img-top image-card image-card-2"> <img src="/img/fairy.jpg" alt="..."> </div>
                 <div class="card-body"> <span class="text-uppercase text-danger fw-bold fs-6">Fairy School</span>
                     <h6 class="card-title text-dark mt-2">After 21 years we are bringing back the magic for the kids!</h6>
                     <p class="card-text">Every Saturday at 10am our resident fairy, Rhiannon, will be hosting an hour of fairy fun.
@@ -170,7 +107,7 @@ import reiki from '../img/reiki.png';
         </div>
         <div class="col-md-4">
             <div class="card">
-                <div class="card-img-top image-card image-card-3"> <img src={reiki} alt="..."> </div>
+                <div class="card-img-top image-card image-card-3"> <img src="/img/meditation.jpg" alt="..."> </div>
                 <div class="card-body"> <span class="text-uppercase text-danger fw-bold fs-6">Meditation Group</span>
                     <h6 class="card-title text-dark mt-2">What you wants to know about hubspot?</h6>
                     <p class="card-text">Each week the group is lead by Shallagh in a beautiful guided meditative journey channeled from Guides, Angels & Ascended Masters for personal psychic & spiritual development. </p>
@@ -182,6 +119,4 @@ import reiki from '../img/reiki.png';
 </div>
 </section>
 
-
 </LayoutHome>
-
