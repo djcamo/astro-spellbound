@@ -13,7 +13,7 @@ description: The classic Rider-Waite Tarot is the best known Tarot deck.
 active: true
 category: {
     name: "Tarot-Oracle",
-    image: "/img/category/tarot.jpg",
+    image: "/img/category/cards.jpg",
 }
 price: $27.00
 ---
