@@ -25,11 +25,13 @@ console.log(processedCats);
 <MainLayout title="">
   <Breadcrumb pagename="Shop" />
 
-  <section class="container g-my-50">
+  <section class="container g-my-50 mt-5">
+  <h2 class="text-center py-3">What We Sell</h2>
     <div class="row" id="categories">
+
         {
           Object.entries(processedCats).map(([key, val]) => (
-               <div class="col learts-mb-40">
+               <div class="col-3 learts-mb-40">
                 <div class="category-banner4">
                     <a href={`/category/${val.name}`.toLowerCase()} class="inner">
                         <div class="image">

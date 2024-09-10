@@ -12,7 +12,7 @@ imageHover: {
 description: Gumleaf Essentials is one of Australia's most reputable brands of essential oils
 active: true
 category: {
-    name: "Incence",
+    name: "Incense",
     image: "/img/category/incense.jpg",
 }
 price: $12.00

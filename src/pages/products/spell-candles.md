@@ -1,19 +1,19 @@
 ---
 layout: "../../layouts/ProductLayout.astro"
-title: Spirit of the Orient Fragrant Oils
+title: Spell Candles
 image: {
-  src: "/img/products/spirit-oils.jpg",
+  src: "/img/products/spell-candles.webp",
   alt: "Spirit of the Orient Fragrant Oils",
 }
 imageHover: {
-  src: "/img/products/spirit-oils.jpg",
+  src: "/img/products/spell-candles.webp",
   alt: "Spirit of the Orient Fragrant Oils",
 }
 description: Spirit of the Orient Fragrance Oils are a premium range of concentrated exotic fragrant oils.
 active: true
 category: {
-    name: "Oils",
-    image: "/img/category/aromatherapy.jpg",
+    name: "Candles",
+    image: "/img/category/candles.jpg",
 }
 price: $30.00
 ---

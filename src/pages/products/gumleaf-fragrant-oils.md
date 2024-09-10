@@ -12,7 +12,7 @@ imageHover: {
 description: With over 60 fragrances to choose from including traditional favourites, gourmet delicacies, Australian natives and contemporary new blends.
 active: true
 category: {
-    name: "Aromatherapy",
+    name: "Oils",
     image: "/img/category/aromatherapy.jpg",
 }
 price: from $15.00

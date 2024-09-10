@@ -12,8 +12,8 @@ imageHover: {
 description: Spirit of the Orient Fragrance Oils are a premium range of concentrated exotic fragrant oils.
 active: true
 category: {
-    name: "Aromatherapy",
-    image: "/img/category/aromatherapy.jpg.jpg",
+    name: "Oils",
+    image: "/img/category/aromatherapy.jpg",
 }
 price: $30.00
 ---

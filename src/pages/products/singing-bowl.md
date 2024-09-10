@@ -12,8 +12,8 @@ imageHover: {
 description: The classic Rider-Waite Tarot is the best known Tarot deck.
 active: true
 category: {
-    name: "Cauldrons",
-    image: "/img/products/cauldron.jpg",
+    name: "Singing-Bowls",
+    image: "/img/category/singing-bowl.jpg",
 }
 price: from $30.00
 ---
