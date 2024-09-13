@@ -391,7 +391,7 @@ h6 {
 }
 
 .product-info .price span.new {
-    color: #f8796c
+    color: var(--bg-header)
 }
 
 .countdown-area .single-countdown {

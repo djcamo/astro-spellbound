@@ -31,7 +31,7 @@ console.log(processedCats);
 
         {
           Object.entries(processedCats).map(([key, val]) => (
-               <div class="col-3 learts-mb-40">
+               <div class="col-md-3 col-6 learts-mb-40">
                 <div class="category-banner4">
                     <a href={`/category/${val.name}`.toLowerCase()} class="inner">
                         <div class="image">
@@ -51,9 +51,9 @@ console.log(processedCats);
   </section>
 
   <style>
-  .category-banner4 .inner .image::before {border: 1px solid #ffffff;}
-  .category-banner4 .inner .content .title {color: #ffffff;}
-  .category-banner4 .inner .content {background-color: #8C8A93 !important;}
-</style>
+    .category-banner4 .inner .image::before {border: 1px solid #ffffff;}
+    .category-banner4 .inner .content .title {color: #ffffff;}
+    .category-banner4 .inner .content {background-color: #8C8A93 !important;}
+  </style>
 
 </MainLayout>
