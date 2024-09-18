@@ -1,15 +1,15 @@
 ---
 layout: "../../layouts/ProductLayout.astro"
-title: Nag Range
+title: Nag Doop Cones
 image: {
-  src: "/img/products/nag-range.jpg",
+  src: "/img/products/nag-cones.jpg",
   alt: "Nag Range",
 }
 imageHover: {
-  src: "/img/products/nag.webp",
+  src: "/img/products/doop-cone-burning.webp",
   alt: "Nag Range",
 }
-description: Gumleaf Essentials is one of Australia's most reputable brands of essential oils
+description: Satya Sai Baba Nag Champa Incense is made from mixture of herbs, floral extracts and oils
 active: true
 category: {
     name: "Incense",
