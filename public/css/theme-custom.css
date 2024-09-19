@@ -1537,14 +1537,14 @@ img.left-icon {
 }
 
 .home12-slide-content .slider-top-content h1 {
-    font-family: Rouge Script, cursive;
-    color: #e45a76;
+    font-family: Marcellus;
+    color: #f7921e;
     text-decoration: none;
     white-space: nowrap;
     line-height: 99px;
     letter-spacing: 0px;
     font-weight: 300;
-    font-size: 75px;
+    font-size: 48px;
     transform-origin: 50% 50%;
     transform: translate(0);
     visibility: visible
@@ -1609,7 +1609,7 @@ img.left-icon {
 }
 
 .home12-slide-content a {
-    background-color: #000;
+    background-color: #f7921e;
     color: #fff;
     text-decoration: none;
     text-align: left;
