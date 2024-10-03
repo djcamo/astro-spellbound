@@ -16,6 +16,7 @@ category: {
     image: "/img/category/incense.jpg",
 }
 price: $8.00
+bestSeller: true
 ---
 
 Satya Sai Baba Nag Champa Incense is made from mixture of herbs, floral extracts and oils, which are hand rolled onto a bamboo stick.

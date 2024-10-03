@@ -16,6 +16,7 @@ category: {
     image: "/img/category/aromatherapy.jpg",
 }
 price: from $12.00
+bestSeller: false
 ---
 
 Kamini Aromatics of Bangalore, India are well known for their quality incense and soaps.

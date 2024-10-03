@@ -16,6 +16,7 @@ category: {
     image: "/img/category/aromatherapy.jpg",
 }
 price: from $16.00
+bestSeller: true
 ---
 
 These essential oils are the finest quality available and have been stringently tested and certified as 100% pure, natural & true to botanical.

@@ -16,6 +16,7 @@ category: {
     image: "/img/category/herbs.webp",
 }
 price: $12.00
+bestSeller: true
 ---
 
 The sacred smoke of sage has been used by the native people of North and South America. Their culture believes the burning of sage prevents any evil influences.

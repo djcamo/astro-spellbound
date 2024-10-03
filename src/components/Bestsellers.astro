@@ -1,3 +1,27 @@
+---
+import { slugify, formatProducts } from "../js/utils";
+import Breadcrumb from "../components/Breadcrumb.astro";
+
+const allProducts = await Astro.glob("../pages/products/*.md");
+const formattedProducts = formatProducts(allProducts);
+const allCategories = formattedProducts
+  .map((cat) => cat.frontmatter.category)
+  .flat();
+
+  const processedCats = allCategories.reduce((accumulator, current) => {
+  if (!accumulator.find((item) => item.bestseller === true)) {
+    accumulator.push(current);
+  }
+  return accumulator;
+}, []);
+
+const { showCount } = Astro.props;
+
+console.log(Astro.props);
+
+---
+
+
 <section class="section-padding">
 
   <div class="container">
@@ -8,20 +32,37 @@
 
     <div class="row">
 
-      <div class="col-md-3 col-sm-2 learts-mb-40">
-          <div class="category-banner4">
-              <a href="/products/gumleaf-essential-oils" class="inner">
-                  <div class="image">
-                    <img class=" ls-is-cached lazyloaded" src="img/products/pure-essential-oils.jpg" alt="">
-                  </div>
-                  <div class="content">
-                      <h3 class="title">
-                        Essential Oils
-                      </h3>
-                  </div>
+
+    <div class="col-6 col-sm-6 col-lg-3 col-md-6 col-sm-6 mb-45grid-item col">
+      <div class="product single-product  32891398553657   ">
+          <div class="product-thumb single-product__image">
+              <a class="image image-wrap" href="/products/gumleaf-essential-oils">
+                  <img class="responsive-image__image popup_cart_image" src="img/products/pure-essential-oils.jpg" alt="Essential Oils">
+                  <noscript>
+                      <img class="popup_cart_image" src="img/products/pure-essential-oils.jpg" alt="Essential Oils">
+                  </noscript>
+                  <style>
+                      #Image-18598732333113-0 {
+                          max-width: 600.0px;
+                          max-height: 800px;
+                      }
+                  </style>
+                  <img class="responsive-image__image popup_cart_image secondary__img" src="img/products/fragrant.webp" alt="Essential Oils" >
+                  <noscript>
+                      <img class="popup_cart_image secondary__img" src="img/products/fragrant.webp" alt="Essential Oils" >
+                  </noscript>
               </a>
           </div>
+          <div class="product-info single-product__content text-center">
+              <h6 class="title popup_cart_title">
+                  <a href="/collections/all/products/grey-tool">Essential Oils</a>
+              </h6>
+          </div>
       </div>
+    </div>
+
+
+
 
 
     <div class="col-md-3 col-sm-2 learts-mb-40">
@@ -78,4 +119,8 @@
     .category-banner4 .inner .image::before {border: 1px solid #ffffff;}
     .category-banner4 .inner .content .title {color: #ffffff;}
     .category-banner4 .inner .content {background-color: #8C8A93 !important;}
+    .product-info:not(:first-child) {margin-top:0}
+    .product-info .title {padding:0.4em;background-color: #8C8A93;margin: -25px auto 0;max-width:80%}
+    .product-info .title a {color: #fff;}
+    .product-info .title a:hover {color: #fff;}
   </style>

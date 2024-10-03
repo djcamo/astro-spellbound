@@ -16,6 +16,7 @@ category: {
     image: "/img/category/candles.jpg",
 }
 price: $30.00
+bestSeller: false
 ---
 
 Spirit of the Orient Fragrance Oils are a premium range of concentrated exotic fragrant oils.

@@ -16,6 +16,7 @@ category: {
     image: "/img/category/aromatherapy.jpg",
 }
 price: from $15.00
+bestSeller: false
 ---
 
 With over 60 fragrances to choose from including traditional favourites, gourmet delicacies, Australian natives and contemporary new blends.

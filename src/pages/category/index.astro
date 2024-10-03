@@ -33,7 +33,7 @@ console.log(processedCats);
           Object.entries(processedCats).map(([key, val]) => (
                <div class="col-md-3 col-6 learts-mb-40">
                 <div class="category-banner4">
-                    <a href={`/category/${val.name}`.toLowerCase()} class="inner">
+                    <a href={`/category/${slugify(val.name)}/`} class="inner">
                         <div class="image">
                           <img class=" ls-is-cached lazyloaded" src={val.image} alt="">
                         </div>

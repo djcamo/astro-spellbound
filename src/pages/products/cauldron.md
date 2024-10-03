@@ -16,6 +16,7 @@ category: {
     image: "/img/products/cauldron.jpg",
 }
 price: from $30.00
+bestSeller: false
 ---
 
 The classic Rider-Waite Tarot is the best known Tarot deck. The vibrant cards, featuring full scenes with figures and symbols, were drawn in 1909 by Pamela Colman Smith under direction of Arthur Edward Waite.

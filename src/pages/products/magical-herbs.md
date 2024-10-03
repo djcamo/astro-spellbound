@@ -16,6 +16,7 @@ category: {
     image: "/img/category/herbs.webp",
 }
 price: from $12.00
+bestSeller: false
 ---
 
 Since ancient times the use of oils and herbs for their their powers to align energies for love, health, peace and prosperity and more have been passed down to us.
