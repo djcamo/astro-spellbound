@@ -1,6 +1,7 @@
 ---
 import LayoutHome from '../layouts/Layout.astro';
 import Bestsellers from '../components/Bestsellers.astro';
+import WhatsHappening from '../components/WhatsHappening.astro';
 import Hours from '../components/Hours.astro';
 import Showcase from '../components/Showcase.astro';
 import Halloween from '../components/Halloween.astro';
@@ -13,6 +14,7 @@ import tarot from '../img/tarot.png';
 
 <Halloween />
 <Bestsellers />
+<WhatsHappening />
 
 <style>
   .auto-init{
@@ -80,45 +82,6 @@ import tarot from '../img/tarot.png';
 </style>
 
 
-<section class="section-padding">
-  <div class="container">
-    <div class="text-center g-my-50 u-heading-v3-1 g-mb-40">
-      <h2 class="text-uppercase h2 u-heading-v3__title g-brd-primary">Whats Happening
-      </h2>
-    </div>
-    <div class="row g-3 mt-5 mb-5">
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card-img-top image-card image-card-1"> <img src={tarot} alt="..."> </div>
-                <div class="card-body"> <span class="text-uppercase text-danger fw-bold fs-6">Tarot Readings</span>
-                    <h6 class="card-title text-dark mt-2">What you wants to know about hubspot?</h6>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
-                    <div class="mt-4 about d-flex justify-content-between align-items-center"> <span><a href="/readings">More Info</a></span> </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card-img-top image-card image-card-2"> <img src="/img/fairy.jpg" alt="..."> </div>
-                <div class="card-body"> <span class="text-uppercase text-danger fw-bold fs-6">Fairy School</span>
-                    <h6 class="card-title text-dark mt-2">After 21 years we are bringing back the magic for the kids!</h6>
-                    <p class="card-text">Every Saturday at 10am our resident fairy, Rhiannon, will be hosting an hour of fairy fun.
-                      <div class="mt-4 about d-flex justify-content-between align-items-center"> <a href="/fairy-school">More Info</a></span> </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <div class="card-img-top image-card image-card-3"> <img src="/img/meditation.jpg" alt="..."> </div>
-                <div class="card-body"> <span class="text-uppercase text-danger fw-bold fs-6">Meditation Group</span>
-                    <h6 class="card-title text-dark mt-2">What you wants to know about hubspot?</h6>
-                    <p class="card-text">Each week the group is lead by Shallagh in a beautiful guided meditative journey channeled from Guides, Angels & Ascended Masters for personal psychic & spiritual development. </p>
-                    <div class="mt-4 about d-flex justify-content-between align-items-center"> <a href="/readings">More Info</a></span> </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</section>
+
 
 </LayoutHome>

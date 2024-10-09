@@ -1,30 +1,7 @@
----
-import { slugify, formatProducts } from "../js/utils";
-import Breadcrumb from "../components/Breadcrumb.astro";
-
-const allProducts = await Astro.glob("../pages/products/*.md");
-const formattedProducts = formatProducts(allProducts);
-const allCategories = formattedProducts
-  .map((cat) => cat.frontmatter.category)
-  .flat();
-
-  const processedCats = allCategories.reduce((accumulator, current) => {
-  if (!accumulator.find((item) => item.bestseller === true)) {
-    accumulator.push(current);
-  }
-  return accumulator;
-}, []);
-
-const { showCount } = Astro.props;
-
-console.log(Astro.props);
-
----
-
-
 <section class="section-padding">
 
   <div class="container">
+
     <div class="text-center my-3 u-heading-v3-1 g-mb-40">
       <h2 class="text-uppercase h2 u-heading-v3__title g-brd-primary">Best Sellers
       </h2>
@@ -32,85 +9,105 @@ console.log(Astro.props);
 
     <div class="row">
 
-
-    <div class="col-6 col-sm-6 col-lg-3 col-md-6 col-sm-6 mb-45grid-item col">
-      <div class="product single-product  32891398553657   ">
-          <div class="product-thumb single-product__image">
-              <a class="image image-wrap" href="/products/gumleaf-essential-oils">
-                  <img class="responsive-image__image popup_cart_image" src="img/products/pure-essential-oils.jpg" alt="Essential Oils">
-                  <noscript>
-                      <img class="popup_cart_image" src="img/products/pure-essential-oils.jpg" alt="Essential Oils">
-                  </noscript>
-                  <style>
-                      #Image-18598732333113-0 {
-                          max-width: 600.0px;
-                          max-height: 800px;
-                      }
-                  </style>
-                  <img class="responsive-image__image popup_cart_image secondary__img" src="img/products/fragrant.webp" alt="Essential Oils" >
-                  <noscript>
-                      <img class="popup_cart_image secondary__img" src="img/products/fragrant.webp" alt="Essential Oils" >
-                  </noscript>
-              </a>
-          </div>
-          <div class="product-info single-product__content text-center">
-              <h6 class="title popup_cart_title">
-                  <a href="/collections/all/products/grey-tool">Essential Oils</a>
-              </h6>
-          </div>
+      <div class="col-6 col-sm-6 col-lg-3 col-md-6 col-sm-6 mb-45grid-item col">
+        <div class="product single-product">
+            <div class="product-thumb single-product__image">
+                <a class="image image-wrap" href="/products/gumleaf-essential-oils">
+                    <img class="responsive-image__image popup_cart_image" src="img/products/pure-essential-oils.jpg" alt="Essential Oils">
+                    <noscript>
+                        <img class="popup_cart_image" src="img/products/pure-essential-oils.jpg" alt="Essential Oils">
+                    </noscript>
+                    <style>
+                        #Image-18598732333113-0 {max-width: 600.0px;max-height: 800px;}
+                    </style>
+                    <img class="responsive-image__image popup_cart_image secondary__img" src="img/products/fragrant.webp" alt="Essential Oils" >
+                    <noscript>
+                        <img class="popup_cart_image secondary__img" src="img/products/fragrant.webp" alt="Essential Oils" >
+                    </noscript>
+                </a>
+            </div>
+            <div class="product-info single-product__content text-center">
+                <h6 class="title popup_cart_title">
+                    <a href="/collections/all/products/grey-tool">Essential Oils</a>
+                </h6>
+            </div>
+        </div>
       </div>
-    </div>
 
-
-
-
-
-    <div class="col-md-3 col-sm-2 learts-mb-40">
-        <div class="category-banner4">
-            <a href="/products/white-sage" class="inner">
-                <div class="image">
-                  <img class=" ls-is-cached lazyloaded" src="img/products/sage-bowl.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3 class="title">
-                      White Sage
-                    </h3>
-                </div>
-            </a>
+      <div class="col-6 col-sm-6 col-lg-3 col-md-6 col-sm-6 mb-45grid-item col">
+        <div class="product single-product">
+            <div class="product-thumb single-product__image">
+                <a class="image image-wrap" href="/products/white-sage">
+                    <img class="responsive-image__image popup_cart_image" src="img/products/sage-bowl.jpg" alt="White Sage">
+                    <noscript>
+                        <img class="popup_cart_image" src="img/products/sage-bowl.jpg" alt="White Sage">
+                    </noscript>
+                    <style>
+                        #Image-18598732333113-0 {max-width: 600.0px;max-height: 800px;}
+                    </style>
+                    <img class="responsive-image__image popup_cart_image secondary__img" src="/img/products/whitesage.webp" alt="White Sage" >
+                    <noscript>
+                        <img class="popup_cart_image secondary__img" src="/img/products/whitesage.webp" alt="White Sage" >
+                    </noscript>
+                </a>
+            </div>
+            <div class="product-info single-product__content text-center">
+                <h6 class="title popup_cart_title">
+                    <a href="/collections/all/products/grey-tool">White Sage</a>
+                </h6>
+            </div>
         </div>
-    </div>
+      </div>
 
-    <div class="col-md-3 col-sm-2 learts-mb-40">
-        <div class="category-banner4">
-            <a href="/products/rider-standard-edition" class="inner">
-                <div class="image">
-                  <img class=" ls-is-cached lazyloaded" src="img/products/standardriderwaitecanva.webp" alt="">
-                </div>
-                <div class="content">
-                    <h3 class="title">
-                      Rider Tarot
-                    </h3>
-                </div>
-            </a>
+      <div class="col-6 col-sm-6 col-lg-3 col-md-6 col-sm-6 mb-45grid-item col">
+        <div class="product single-product">
+            <div class="product-thumb single-product__image">
+                <a class="image image-wrap" href="/products/rider-standard-edition">
+                    <img class="responsive-image__image popup_cart_image" src="/img/products/standardriderwaitecanva.webp" alt="Rider Tarot">
+                    <noscript>
+                        <img class="popup_cart_image" src="/img/products/standardriderwaitecanva.webp" alt="Rider Tarot">
+                    </noscript>
+                    <style>
+                        #Image-18598732333113-0 {max-width: 600.0px;max-height: 800px;}
+                    </style>
+                    <img class="responsive-image__image popup_cart_image secondary__img" src="/img/products/rider_tarot.jpg" alt="Rider Tarot" >
+                    <noscript>
+                        <img class="popup_cart_image secondary__img" src="/img/products/rider_tarot.jpg" alt="Rider Tarot" >
+                    </noscript>
+                </a>
+            </div>
+            <div class="product-info single-product__content text-center">
+                <h6 class="title popup_cart_title">
+                    <a href="/collections/all/products/grey-tool">Rider Tarot</a>
+                </h6>
+            </div>
         </div>
-    </div>
+      </div>
 
-    <div class="col-md-3 col-sm-2 learts-mb-40">
-        <div class="category-banner4">
-            <a href="/products/nag-incense-stick" class="inner">
-                <div class="image">
-                  <img class=" ls-is-cached lazyloaded" src="img/products/nag-sticks.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3 class="title">
-                      Nag Incense
-                    </h3>
-                </div>
-            </a>
+      <div class="col-6 col-sm-6 col-lg-3 col-md-6 col-sm-6 mb-45grid-item col">
+        <div class="product single-product">
+            <div class="product-thumb single-product__image">
+                <a class="image image-wrap" href="/products/nag-incense-stick">
+                    <img class="responsive-image__image popup_cart_image" src="/img/products/nag-sticks.jpg" alt="Nag Incense">
+                    <noscript>
+                        <img class="popup_cart_image" src="/img/products/nag-sticks.jpg" alt="Nag Incense">
+                    </noscript>
+                    <style>
+                        #Image-18598732333113-0 {max-width: 600.0px;max-height: 800px;}
+                    </style>
+                    <img class="responsive-image__image popup_cart_image secondary__img" src="/img/products/nag.webp" alt="Nag Incense" >
+                    <noscript>
+                        <img class="popup_cart_image secondary__img" src="/img/products/nag.webp" alt="Nag Incense" >
+                    </noscript>
+                </a>
+            </div>
+            <div class="product-info single-product__content text-center">
+                <h6 class="title popup_cart_title">
+                    <a href="/collections/all/products/grey-tool">Nag Incense</a>
+                </h6>
+            </div>
         </div>
-    </div>
-
-
+      </div>
 
   </div>
 </section>
