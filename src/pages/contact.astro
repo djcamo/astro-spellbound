@@ -53,7 +53,7 @@ import Layout from '../layouts/Layout.astro';
 
 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBEypW1XtGLWpikFPcityAok8rhJzzWRw"></script>
-    <script>
+    <!-- <script>
         function init() {
             var mapOptions = {
                     zoom: 11,
@@ -230,8 +230,8 @@ import Layout from '../layouts/Layout.astro';
                 title: 'Snazzy!'
             });
         }
-        google.maps.event.addDomListener(window, 'load', init);
-    </script>
+        //* google.maps.event.addDomListener(window, 'load', init);
+    </script> -->
 
 
     <!-- Contact Map End -->
@@ -254,56 +254,8 @@ import Layout from '../layouts/Layout.astro';
 
 
 
-</div><div id="shopify-section-template--14116845191225__contact-template" class="shopify-section"><!-- Contact Form Section Start -->
-<div class="section section-padding pt-0  section-normal ">
-  <div class="container">
-    <!-- Section Title Start --><div class="section-title2 text-center">
-      <h2 class="title">Send a message</h2>
-    </div><!-- Section Title End -->
-
-    <div class="row">
-      <div class="col-lg-8 col-12 mx-auto">
-        <div class="contact-form">
-          <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="contact"><input type="hidden" name="utf8" value="✓">
-          <div id="contact-form">
-            <div class="row learts-mb-n30">
-              <div class="col-md-6 col-12 learts-mb-30"><input type="text" placeholder="Your name *" class="" name="contact[name]" id="ContactFormName" value=""></div>
-              <div class="col-md-6 col-12 learts-mb-30"><input type="email" placeholder="Email *" class="" name="contact[email]" id="ContactFormEmail" value=""></div>
-              <div class="col-12 learts-mb-30"><textarea placeholder="Message" class="custom-textarea" name="contact[body]" id="ContactFormMessage"></textarea></div>
-              <div class="col-12 text-center learts-mb-30"><button class="btn btn-dark btn-outline-hover-dark" type="submit">Submit</button></div>
-            </div>
-          </div>
-
-
-          </form>
-        </div>
-      </div>
-    </div>
-
-  </div>
 </div>
-<!-- Contact Form Section End --><script>
-      var actCallback = function (response) {
-        $('#contactFormSubmit').prop("disabled", false);
-        $('#re-captcha').remove();
-      };
-      var expCallback = function() {
-        $('#contactFormSubmit').prop("disabled", true);
-      };
 
-      var onloadCallback = function () {
-        var widget = grecaptcha.render(document.getElementById("re-captcha"), {
-          'sitekey' : "123456789", // Sitekey, Retrieving from reCaptcha
-          'theme': "light",
-          'callback' : actCallback,
-          'expired-callback': expCallback,
-        });
-      }
-    </script>
-
-
-
-</div>
 
 
 </Layout>
