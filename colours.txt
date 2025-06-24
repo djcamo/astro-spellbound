@@ -1,5 +1,0 @@
-lavender = #967bb6
-fern green = #4F7942
-cream = #f2f3ae
-antique bronze = #cc9966
-deep plumb = #702670
