@@ -1,7 +1,8 @@
 :root{
     --bg-color: #fff;
-    --bg-bar: #b6cb9e ;
+    --bg-bar: #f9f5ef ;
     --heading: #967bb6;
+    --primary-text: #333
 }
 
 
@@ -261,7 +262,7 @@ h6 {
 }
 
 .bg-primary2 {
-    background-color: var(--bg-bar) !important
+    background-color: var(--primary-text) !important
 }
 
 .text-primary2 {
@@ -351,7 +352,7 @@ h6 {
 .parallax-banner-2 .content .sub-title,
 .instagram-banner1 .content .title a:hover,
 .countdown2.primary2 .count span.amount {
-    color: var(--bg-bar)
+    color: var(--primary-text)
 }
 
 .widget-subscibe .btn:hover {

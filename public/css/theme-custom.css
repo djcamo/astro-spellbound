@@ -616,7 +616,7 @@ button.AR_3D_Viewer {
     font-weight: 400;
     line-height: 1;
     margin-bottom: 0;
-    color: var(--bg-bar);
+    color: var(--primary-text);
 }
 
 .section-title2 h2.title--medium {
