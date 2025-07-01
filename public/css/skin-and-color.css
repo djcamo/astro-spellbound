@@ -2,7 +2,8 @@
     --bg-color: #fff;
     --bg-bar: #f9f5ef ;
     --heading: #967bb6;
-    --primary-text: #333
+    --primary-text: #777;
+    --sage: #cadbc8
 }
 
 
@@ -253,7 +254,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #333
+    color: var(--primary-text)
 }
 
 #YourID,

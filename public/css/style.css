@@ -265,7 +265,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .text-dark {
-    color: #333 !important
+    color: #777 !important
 }
 
 .bg-black {
@@ -1779,8 +1779,8 @@ only screen and (max-width: 767px) {
 }
 
 .btn-light {
-    border-color: #f8f9fa;
-    background-color: #f8f9fa;
+    border-color: var(--sage);
+    background-color: var(--sage);
     color: #333
 }
 
@@ -14603,7 +14603,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .widget-list li a {
-    color: #fff;
+    color: var(--primary-text);
     border-bottom: 1px solid transparent
 }
 
