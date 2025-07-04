@@ -117,7 +117,18 @@
     .category-banner4 .inner .content .title {color: #ffffff;}
     .category-banner4 .inner .content {background-color: var(--sage) !important;}
     .product-info:not(:first-child) {margin-top:0}
-    .product-info .title {padding:0.4em;background-color: var(--sage);margin: -25px auto 0;max-width:80%}
+    .product-info .title {padding:0.4em;background-color: var(--sage);margin: -25px auto 0;}
     .product-info .title a {color: var(--primary-text);}
     .product-info .title a:hover {color: #fff;}
+
+    @media only screen and (max-width: 600px) {
+        .product-info:not(:first-child) {
+            margin-top:28px;
+            max-width:100%;
+        }
+        .product-info .title{
+            background-color: #fff;
+        }
+    }
+
   </style>

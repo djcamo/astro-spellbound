@@ -16519,4 +16519,15 @@ only screen and (max-width: 767px) {
     }
 }
 
+@media only screen and (max-width: 600px) {
+        .category-banner4 .inner .content {
+            position: relative;
+            z-index: 9;
+            max-width: 80%;
+            margin: 0 auto ;
+            /* padding: 15px 10px; */
+        }
+        
+    }
+
 /*# sourceMappingURL=/cdn/shop/t/51/assets/style.css.map?v=29631887237755522321681271734 */
