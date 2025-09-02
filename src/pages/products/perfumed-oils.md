@@ -15,14 +15,10 @@ category: {
     name: "Oils",
     image: "/img/category/aromatherapy.jpg",
 }
-price: $30.00
+price: $13.95$
 bestSeller: false
 ---
 
-Spirit of the Orient Fragrance Oils are a premium range of concentrated exotic fragrant oils.
+Our famous Spiritual Sky Perfumes have been sold in Australia for over 40 years.  Chances are your Mum or even Grandmother was wearing them in their youth and are still buying them today.
 
-Choose from a range of 6 evocative scents inspired by the Orient.
-
-Ideal for use in oil burners and ultrasonic oil diffusers.
-
-Also suitable for DIY crafting of candles, soaps, bath bombs, perfume and more.
+The same iconic small square sided bottle is still the same but we now have round tops for ease of opening/closing.

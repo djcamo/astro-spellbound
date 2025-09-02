@@ -15,10 +15,8 @@ category: {
     name: "Oils",
     image: "/img/category/aromatherapy.jpg",
 }
-price: from $15.00
+price: $8.95
 bestSeller: false
 ---
 
-With over 60 fragrances to choose from including traditional favourites, gourmet delicacies, Australian natives and contemporary new blends.
-
-Ideal for use in oil burners and ultrasonic oil diffusers.
+Ideal for use in oil burners, vapourisers, diffusers, crafts, candles and soap making.  Available in no-mess 10 ml dripper bottles.

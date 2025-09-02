@@ -15,10 +15,10 @@ category: {
     name: "Herbs",
     image: "/img/category/herbs.webp",
 }
-price: $12.00
+price: from $12.00
 bestSeller: true
 ---
 
-The sacred smoke of sage has been used by the native people of North and South America. Their culture believes the burning of sage prevents any evil influences.
+White sage has long been used by the indigenous people of Northern America and has cultural and spiritual significance as it was used for energy and space clearing ceremonies, as well as for healing purposes.
 
-The burning of smudge sticks can be done as an everyday event to purify and cleanse your body, office or home and to rid of negative energies.
+Our white sage bundles are grown and harvested using ethical and sustainable practices in accordance with local laws.

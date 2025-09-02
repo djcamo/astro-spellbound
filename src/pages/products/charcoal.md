@@ -15,9 +15,9 @@ category: {
     name: "Herbs",
     image: "/img/category/herbs.webp",
 }
-price: $12.00
+price: $6.00
 bestSeller: false
 ---
 
-Gumleaf Essentials is one of Australia's most reputable brands of essential oils, having been in production since the 1970's.
+Three Kings premium Dutch "Quick - Light"  Charcoal. Each foil wrapped roll contains 10 charcoal discs for use with herbs or incense resins in a heatproof container.
 

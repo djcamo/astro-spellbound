@@ -15,12 +15,8 @@ category: {
     name: "Oils",
     image: "/img/category/aromatherapy.jpg",
 }
-price: from $12.00
+price: $12.00
 bestSeller: false
 ---
 
-Kamini Aromatics of Bangalore, India are well known for their quality incense and soaps.
-
-The perfume oils are available in all your favourite Kamini fragrances and offer an additional way to enjoy the wonderful scents.
-
-The oils are packaged in glass bottles and are roll on for your convenience.
+Kamini Roll on perfume oils are alcohol free and not tested on animals.  They contain pure essential oils.

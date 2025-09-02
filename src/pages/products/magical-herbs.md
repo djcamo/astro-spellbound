@@ -15,10 +15,10 @@ category: {
     name: "Herbs",
     image: "/img/category/herbs.webp",
 }
-price: from $12.00
+price: from $11.00
 bestSeller: false
 ---
 
-Since ancient times the use of oils and herbs for their their powers to align energies for love, health, peace and prosperity and more have been passed down to us.
+Our dried herbs have a range of different uses and meaning, whether a person is looking for luck, good health or even love.
 
-Used in protection spells or placed in a sachets and carried or worn.
+Many dried herbs have incredible cultural significance for many people from across the world, where their ceremonial use has long brought charms, good luck and fortune.
