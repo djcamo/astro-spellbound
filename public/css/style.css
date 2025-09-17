@@ -32,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Catchy-Mager', Arial, Helvetica, sans-serif;
+    font-family: 'Marcellus', Arial, Helvetica, sans-serif;
     font-weight: 600;
     line-height: 1.2;
     margin-top: 0;
@@ -59,7 +59,7 @@ button {
     display: inline-block;
     cursor: pointer;
     text-decoration: none;
-    color: inherit
+    color: var(--heading)
 }
 
 a,
@@ -7193,7 +7193,7 @@ only screen and (max-width: 767px) {
 }
 
 .home6-slide1-content .sub-title {
-    font-family: Rouge Script, cursive;
+    /* font-family: Rouge Script, cursive; */
     font-size: 80px;
     font-weight: 400;
     line-height: 1.375;
@@ -10240,7 +10240,7 @@ only screen and (max-width: 575px) {
     position: relative;
     z-index: 9;
     max-width: 80%;
-    margin: -25px auto 0;
+    margin: -5px auto 0;
     padding: 15px 10px
 }
 
@@ -16527,7 +16527,7 @@ only screen and (max-width: 767px) {
             margin: 0 auto ;
             /* padding: 15px 10px; */
         }
-        
+
     }
 
 /*# sourceMappingURL=/cdn/shop/t/51/assets/style.css.map?v=29631887237755522321681271734 */

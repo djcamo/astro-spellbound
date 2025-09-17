@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Nag Incense Sticks (15g)
 image: {
-  src: "/img/products/nag-sticks.jpg",
+  src: "/img/products/nag-sticks.png",
   alt: "Nag Range",
 }
 imageHover: {
