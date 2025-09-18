@@ -1,12 +1,12 @@
 ---
 layout: "../../layouts/ProductLayout.astro"
-title: Spell Candles
+title: Pillar Candles
 image: {
-  src: "/img/products/spell-candles-2.jpg",
+  src: "/img/products/pillar-candles.webp",
   alt: "Spirit of the Orient Fragrant Oils",
 }
 imageHover: {
-  src: "/img/products/spell-candles-1.webp",
+  src: "/img/products/pillar-candles-1.webp",
   alt: "Spirit of the Orient Fragrant Oils",
 }
 description: Spirit of the Orient Fragrance Oils are a premium range of concentrated exotic fragrant oils.

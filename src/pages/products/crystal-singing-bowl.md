@@ -1,19 +1,19 @@
 ---
 layout: "../../layouts/ProductLayout.astro"
-title: Cauldrons
+title: Crystal Singing Bowls
 image: {
-  src: "/img/products/cauldron.jpg",
-  alt: "Cauldrons",
+  src: "/img/products/crystal-singing-bowl.webp",
+  alt: "Crystal Singing Bowls",
 }
 imageHover: {
-  src: "/img/products/cauldron.webp",
-  alt: "Cauldrons",
+  src: "/img/products/crystal-singing-bowl.webp",
+  alt: "Crystal Singing Bowls",
 }
 description: The classic Rider-Waite Tarot is the best known Tarot deck.
 active: true
 category: {
-    name: "Cauldrons",
-    image: "/img/products/cauldron.jpg",
+    name: "Singing Bowls",
+    image: "/img/category/singing-bowl.jpg",
 }
 price: from $30.00
 bestSeller: false

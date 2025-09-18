@@ -1,13 +1,13 @@
 ---
 layout: "../../layouts/ProductLayout.astro"
-title: Cauldrons
+title: Singing Bowls
 image: {
-  src: "/img/products/cauldron.jpg",
-  alt: "Cauldrons",
+  src: "/img/products/singing-bowls.webp",
+  alt: "Singing Bowls",
 }
 imageHover: {
-  src: "/img/products/cauldron.jpg",
-  alt: "Cauldrons",
+  src: "/img/products/singing-bowls.webp",
+  alt: "Singing Bowls",
 }
 description: The classic Rider-Waite Tarot is the best known Tarot deck.
 active: true
