@@ -6,7 +6,7 @@ image: {
   alt: "Singing Bowls",
 }
 imageHover: {
-  src: "/img/products/singing-bowls.webp",
+  src: "/img/products/singing-bowls-using.webp",
   alt: "Singing Bowls",
 }
 description: The classic Rider-Waite Tarot is the best known Tarot deck.

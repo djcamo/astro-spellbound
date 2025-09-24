@@ -6,7 +6,7 @@ image: {
   alt: "stones",
 }
 imageHover: {
-  src: "/img/products/chip-beads.jpg",
+  src: "/img/products/chip-beads-1.webp",
   alt: "amethyst",
 }
 description: amethyst
