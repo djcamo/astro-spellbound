@@ -15,8 +15,12 @@ category: {
     name: "Singing Bowls",
     image: "/img/category/singing-bowl.jpg",
 }
-price: from $30.00
+price: from $35.00
 bestSeller: false
 ---
 
-The classic Rider-Waite Tarot is the best known Tarot deck. The vibrant cards, featuring full scenes with figures and symbols, were drawn in 1909 by Pamela Colman Smith under direction of Arthur Edward Waite.
+A brass singing bowl is a hand-beaten or machined metal bowl used for meditation, yoga, sound healing, and spiritual rituals.
+
+A mallet is used to create resonant, harmonising sounds which promote relaxation, focus, mindfulness and stress relief by generating vibrations believed to balance the body's energy.
+
+Different size bowls create different sounds.  Prices vary depending on the size of the bowl.

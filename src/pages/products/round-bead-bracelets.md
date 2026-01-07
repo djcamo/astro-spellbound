@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/ProductLayout.astro"
-title: Round Bead Bracelets
+title: Gemstone Round Bead Bracelets
 image: {
   src: "/img/products/round-beads.webp",
   alt: "stones",
@@ -19,5 +19,8 @@ price: from $12
 bestSeller: false
 ---
 
-The classic Rider-Waite Tarot is the best known Tarot deck. The vibrant cards, featuring full scenes with figures and symbols, were drawn in 1909 by Pamela Colman Smith under direction of Arthur Edward Waite.
+An affordable way to wear your favourite gemstones.
 
+6mm, 8mm, 10mm and 12mm round beads are available in a variety of gemstones.
+
+Prices vary accordingly.

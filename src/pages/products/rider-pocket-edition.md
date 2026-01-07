@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Rider Tarot Deck - Pocket Edition
 image: {
-  src: "/img/products/pocketriderwaitecanva.webp",
+  src: "/img/products/the-rider-waite-tarot-deck.png",
   alt: "Rider Tarot Deck - Pocket Edition",
 }
 imageHover: {
@@ -15,9 +15,11 @@ category: {
     name: "Tarot/Oracle",
     image: "/img/category/cards.jpg",
 }
-price: $27.00
+price: $29.00
 bestSeller: false
 ---
 
-The classic Rider-Waite Tarot is the best known Tarot deck. The vibrant cards, featuring full scenes with figures and symbols, were drawn in 1909 by Pamela Colman Smith under direction of Arthur Edward Waite.
+The classic Rider-Waite Tarot is the best known Tarot deck.
+
+The vibrant cards, featuring full scenes with figures and symbols, were drawn in 1909 by Pamela Colman Smith under direction of Arthur Edward Waite.
 
