@@ -1,15 +1,15 @@
 ---
 layout: "../../layouts/ProductLayout.astro"
-title: Singing Bowls
+title: Brass Singing Bowls
 image: {
   src: "/img/products/singing-bowls.webp",
-  alt: "Singing Bowls",
+  alt: "Brass Singing Bowls",
 }
 imageHover: {
   src: "/img/products/singing-bowls-using.webp",
-  alt: "Singing Bowls",
+  alt: "Brass Singing Bowls",
 }
-description: The classic Rider-Waite Tarot is the best known Tarot deck.
+description: TBrass
 active: true
 category: {
     name: "Singing Bowls",

@@ -1,12 +1,12 @@
 ---
 layout: "../../layouts/ProductLayout.astro"
-title: Perfumed Oils
+title: Spiritual Sky Perfumed Oil
 image: {
   src: "/img/products/spiritual.sky.perfume.oils1.jpg",
   alt: "Perfumed Oils",
 }
 imageHover: {
-  src: "/img/products/spiritual.sky.perfume.oils1.jpg",
+  src: "/img/products/spiritual.sky.perfume.oils-1.webp",
   alt: "Perfumed Oils",
 }
 description: Spirit of the Orient Fragrance Oils are a premium range of concentrated exotic fragrant oils.
