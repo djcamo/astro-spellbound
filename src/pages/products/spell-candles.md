@@ -3,26 +3,22 @@ layout: "../../layouts/ProductLayout.astro"
 title: Spell Candles
 image: {
   src: "/img/products/spell-candles-2.jpg",
-  alt: "Spirit of the Orient Fragrant Oils",
+  alt: "Spell Candles",
 }
 imageHover: {
   src: "/img/products/spell-candles-1.webp",
-  alt: "Spirit of the Orient Fragrant Oils",
+  alt: "Spell Candles",
 }
-description: Spirit of the Orient Fragrance Oils are a premium range of concentrated exotic fragrant oils.
+description: Spell Candles.
 active: true
 category: {
     name: "Candles",
     image: "/img/category/candles.jpg",
 }
-price: $30.00
+price: $10.00
 bestSeller: false
 ---
 
-Spirit of the Orient Fragrance Oils are a premium range of concentrated exotic fragrant oils.
+Each box contains 12 high-quality candles, designed to help you harness the power of manifestation.
 
-Choose from a range of 6 evocative scents inspired by the Orient.
-
-Ideal for use in oil burners and ultrasonic oil diffusers.
-
-Also suitable for DIY crafting of candles, soaps, bath bombs, perfume and more.
+Individual colours sold separately.

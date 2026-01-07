@@ -19,5 +19,5 @@ price: $6.00
 bestSeller: false
 ---
 
-Three Kings premium Dutch "Quick - Light"  Charcoal. Each foil wrapped roll contains 10 charcoal discs for use with herbs or incense resins in a heatproof container.
+Premium "Quick - Light"  Charcoal. Each foil wrapped roll contains 10 charcoal discs for use with herbs or incense resins in a heatproof container.
 
