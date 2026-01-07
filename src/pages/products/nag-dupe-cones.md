@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/ProductLayout.astro"
-title: Nag Doop Cones
+title: Satya Nag Champa Cones
 image: {
   src: "/img/products/nag-cones.jpg",
   alt: "Nag Range",
@@ -15,8 +15,10 @@ category: {
     name: "Incense",
     image: "/img/category/incense.jpg",
 }
-price: $12.00
+price: $3.00
 bestSeller: false
 ---
 
-Satya Sai Baba Nag Champa Incense is made from mixture of herbs, floral extracts and oils, which are hand rolled onto a bamboo stick.
+A magical blend of sandalwood and frangipani, this fragrance is the world’s most commercially successful incense blend.
+
+ It is the first secret recipe formulated by the founding family of Shrinivas Sugandhalaya and has stood the test of time as the most loved flora incense worldwide.

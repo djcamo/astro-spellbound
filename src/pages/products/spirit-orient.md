@@ -15,7 +15,7 @@ category: {
     name: "Oils",
     image: "/img/category/aromatherapy.jpg",
 }
-price: $30.00
+price: $8.95
 bestSeller: false
 ---
 

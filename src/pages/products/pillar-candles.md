@@ -3,26 +3,24 @@ layout: "../../layouts/ProductLayout.astro"
 title: Pillar Candles
 image: {
   src: "/img/products/pillar-candles.webp",
-  alt: "Spirit of the Orient Fragrant Oils",
+  alt: "Pillar Candles",
 }
 imageHover: {
   src: "/img/products/pillar-candles-1.webp",
-  alt: "Spirit of the Orient Fragrant Oils",
+  alt: "Pillar Candles",
 }
-description: Spirit of the Orient Fragrance Oils are a premium range of concentrated exotic fragrant oils.
+description: Pillar Candles.
 active: true
 category: {
     name: "Candles",
     image: "/img/category/candles.jpg",
 }
-price: $30.00
+price: $16.00
 bestSeller: false
 ---
 
-Spirit of the Orient Fragrance Oils are a premium range of concentrated exotic fragrant oils.
+Made in Australia, these very popular pillars are cruelty-free and vegan.
 
-Choose from a range of 6 evocative scents inspired by the Orient.
+Scented with phthalate-free fragrance with a lead-free cotton wick.
 
-Ideal for use in oil burners and ultrasonic oil diffusers.
-
-Also suitable for DIY crafting of candles, soaps, bath bombs, perfume and more.
+They are coloured and scented throughout the entire candle and have a burning time of approx 60 hours.

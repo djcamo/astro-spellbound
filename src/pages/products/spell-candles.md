@@ -22,3 +22,11 @@ bestSeller: false
 Each box contains 12 high-quality candles, designed to help you harness the power of manifestation.
 
 Individual colours sold separately.
+
+Black spell candles possess unique and powerful properties that are often associated with protection, banishing negativity, and grounding.
+
+White spell candles embody purity, clarity, and spiritual illumination & can be used as a substitute for any other colour.
+
+Red spell candles possess fiery and passionate properties associated with love, vitality, courage, and strength.
+
+Orange spell candles possess vibrant and energizing properties associated with creativity, joy, enthusiasm, and manifestation.
