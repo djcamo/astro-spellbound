@@ -19,5 +19,9 @@ price: from $12
 bestSeller: false
 ---
 
-The classic Rider-Waite Tarot is the best known Tarot deck. The vibrant cards, featuring full scenes with figures and symbols, were drawn in 1909 by Pamela Colman Smith under direction of Arthur Edward Waite.
+Gemstone terminator pendants are powerful little conduits of energy, shaped to focus, direct and amplify intention.
+
+With a pointed end at both top and bottom, they symbolise balance, grounding and expansion.
+
+Worn close to the heart, a terminator pendant becomes a quiet ally, helping energy flow with clarity and purpose while supporting your intentions throughout the day.
 

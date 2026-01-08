@@ -19,5 +19,9 @@ price: from $3
 bestSeller: false
 ---
 
-The classic Rider-Waite Tarot is the best known Tarot deck. The vibrant cards, featuring full scenes with figures and symbols, were drawn in 1909 by Pamela Colman Smith under direction of Arthur Edward Waite.
+Tumbled gemstones have been smoothed and polished in a rock tumbler, giving them a gentle, rounded shape and shiny finish, making their inherent energies more accessible for daily use in crystal healing, meditation, or intention setting.
+
+We have an extensive range for all your healing needs.
+
+Phone us for more information & availability.
 
