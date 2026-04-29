@@ -3,7 +3,7 @@ layout: "../../layouts/ProductLayout.astro"
 title: Cauldrons
 image: {
   src: "/img/products/cauldron.jpg",
-  alt: "Cauldrons",
+  alt: "Cauldrons ",
 }
 imageHover: {
   src: "/img/products/cauldron.webp",
