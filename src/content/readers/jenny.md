@@ -1,7 +1,7 @@
 ---
 name: Jenny
 image: {
-    src: "/img/people/jenny.jpg",
+    src: "/img/people/jenny.webp",
     alt: "Jenny",
 }
 ---

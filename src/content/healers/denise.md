@@ -2,7 +2,7 @@
 name: Denise
 type: Crystal Bed Healings
 image: {
-    src: "/img/people/denise.jpg",
+    src: "/img/people/denise.webp",
     alt: "Denise",
 }
 ---

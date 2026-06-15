@@ -1,7 +1,7 @@
 ---
 name: Shallagh
 image: {
-    src: "/img/people/shallagh.jpg",
+    src: "/img/people/shallagh.webp",
     alt: "Shallagh",
 }
 ---

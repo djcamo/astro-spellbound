@@ -3,6 +3,37 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="About Spellbound Magical Gifts">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script is:inline>
+    $(document).ready(function(){
+        $('.learts-testimonial-carousel').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            width: '390px',
+        });
+    });
+</script>
+
+<link rel="stylesheet" id="learts-main-style-css" href="https://learts-4437.kxcdn.com/wp-content/themes/learts/style.min.css?ver=6.9.4" type="text/css" media="all">
+<style>
+    .learts-testimonial-carousel__text{
+        font-size: 16px !important;
+        padding: 20px;
+    }
+    .learts-testimonial-carousel img{
+        border-radius: 50%;
+    }
+    .multiple-testimonials .box-cite, .multiple-testimonials .learts-testimonial-carousel__img {
+        display: inline-block;
+        vertical-align: middle;
+    }
+</style>
 
 <div id="shopify-section-template--15812670685241__about-us-with-banner" class="shopify-section">
     <!-- About Section Start -->
@@ -39,221 +70,100 @@ import Layout from '../layouts/Layout.astro';
         </div>
     </div>
     <!-- About Section End -->
-    <style data-shopify="">
-        .about-us3 .sub-title {
-            color: #333;
-        }
 
-        .about-us3 .title {
-            color: var(--primary-text);
-        }
-
-        .about-us3 .desc p {
-            color: #696969;
-        }
-
-        .about-us3 .link {
-            color: #333;
-        }
-
-        .about-us3 .link::before {
-            background-color: #333;
-        }
-
-        .about-us3 .link:hover {
-            color: #f8796c;
-        }
-
-        .about-us3 .link:hover::before {
-            background-color: #333;
-        }
-
-
-
-
-
-
-
-
-        #section-template--15812670685241__about-us-with-banner .section-title .title {
-            color: #333;
-        }
-
-        #section-template--15812670685241__about-us-with-banner .section-title .sub-title {
-            color: #72A499;
-        }
-
-        #section-template--15812670685241__about-us-with-banner .section-title .title.title-icon-both::before {
-            content: url(http:\/\/via.placeholder.com\/54x24);
-        }
-
-        #section-template--15812670685241__about-us-with-banner .section-title .title.title-icon-both::after {
-            content: url(http:\/\/via.placeholder.com\/54x24);
-        }
-    </style>
-    <style data-shopify="">
-        #section-template--15812670685241__about-us-with-banner {}
-
-        @media (min-width: 768px) and (max-width: 991px) {
-            #section-template--15812670685241__about-us-with-banner {}
-        }
-
-        @media (max-width: 767px) {
-            #section-template--15812670685241__about-us-with-banner {}
-        }
-    </style>
 
 
 
 </div>
-<div id="shopify-section-template--15812670685241__our-feature-two" class="shopify-section">
-    <!-- Feature Section Start -->
+
+<div class="shopify">
 
 
-    <style data-shopify="">
-        .block_5f61a743-5f10-42e9-916a-ce562d0563e2 .icon-box5 .icon {
-            color: #f8796c;
-            background-color: #fff;
-        }
-
-        .block_5f61a743-5f10-42e9-916a-ce562d0563e2 .icon-box5 .icon svg {
-            color: #f8796c;
-            background-color: #fff;
-        }
-
-        .block_5f61a743-5f10-42e9-916a-ce562d0563e2 .icon-box5 .content .title {
-            color: #333;
-        }
-
-        .block_5f61a743-5f10-42e9-916a-ce562d0563e2 .icon-box5 .content p {
-            color: #696969;
-        }
-
-        .block_5f61a743-5f10-42e9-916a-ce562d0563e2 .icon-box4 .inner .content .title {
-            color: #333;
-        }
-
-        .block_5f61a743-5f10-42e9-916a-ce562d0563e2 .icon-box4 .inner .content p {
-            color: #696969;
-        }
+    <article id="post-1506" class="post-1506 page type-page status-publish hentry">
+	    <div class="entry-content">
+            <div class="wpb-content-wrapper">
+                <div class="vc_row wpb_row row">
+                    <div class="wpb_column vc_column_container col-sm-12">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div style="font-size: 40px;color: #333333;line-height: 56px;text-align: center;font-family:Marcellus;font-weight:400;font-style:normal" class="vc_custom_heading vc_custom_1542697938395 title-learts">What Our Customers Say</div>
+                                    <div class="wpb_text_column wpb_content_element vc_custom_1548649339002">
+                                        <div class="wpb_wrapper">
+                                            <p style="font-size: 18px; line-height: 32px; letter-spacing: 0.5px; color: #696969; text-align: center; font-weight: 300;">Listen to what existing and loyal customers have said about us.</p>
+                                        </div>
+                                    </div>
+                                    <div class="tm-shortcode learts-space mb-5" id="learts-space-1"></div>
 
 
+                                    <div class="tm-shortcode learts-testimonial-carousel slick-slider w-75 m-auto" id="learts-testimonial-carousel-1">
+                                            <!-- start testimonials -->
+                                            <div>
+                                                <div class="learts-testimonial-carousel__text">
+                                                    Thanks for always keeping your WordPress themes up to date. Your level of support is second to none.
+                                                </div>
+                                                <div class="cite-image learts-testimonial-carousel__img">
+                                                    <img width="80" height="80" src="https://learts-4437.kxcdn.com/wp-content/uploads/2018/10/testimonial-avatar-4-80x80.png" class="attachment-learts-testimonial-cite-image size-learts-testimonial-cite-image" alt="" srcset="">
+                                                </div>
+
+                                                <div class="box-cite">
+                                                    <div class="learts-testimonial-carousel__cite">
+                                                        Sally Ramsey
+                                                    </div>
+                                                    <div class="learts-testimonial-carousel__sub-cite">
+                                                        Reporter
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <div class="learts-testimonial-carousel__text">
+                                                    Thanks for always keeping your WordPress themes up to date. Your level of support is second to none.
+                                                </div>
+                                                <div class="cite-image learts-testimonial-carousel__img">
+                                                    <img width="80" height="80" src="https://learts-4437.kxcdn.com/wp-content/uploads/2018/10/testimonial-avatar-4-80x80.png" class="attachment-learts-testimonial-cite-image size-learts-testimonial-cite-image" alt="" srcset="">
+                                                </div>
+
+                                                <div class="box-cite">
+                                                    <div class="learts-testimonial-carousel__cite">
+                                                        Sally Ramsey
+                                                    </div>
+                                                    <div class="learts-testimonial-carousel__sub-cite">
+                                                        Reporter
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                              <div>
+                                                <div class="learts-testimonial-carousel__text">
+                                                    Thanks for always keeping your WordPress themes up to date. Your level of support is second to none.
+                                                </div>
+                                                <div class="cite-image learts-testimonial-carousel__img">
+                                                    <img width="80" height="80" src="https://learts-4437.kxcdn.com/wp-content/uploads/2018/10/testimonial-avatar-4-80x80.png" class="attachment-learts-testimonial-cite-image size-learts-testimonial-cite-image" alt="" srcset="">
+                                                </div>
+
+                                                <div class="box-cite">
+                                                    <div class="learts-testimonial-carousel__cite">
+                                                        Sally Ramsey
+                                                    </div>
+                                                    <div class="learts-testimonial-carousel__sub-cite">
+                                                        Reporter
+                                                    </div>
+                                                </div>
+                                            </div>
 
 
+                                            <!-- end testimonials -->
 
+                                    </div>
 
-        .block_4be582a1-c031-4275-9adb-3d2606c7b15d .icon-box5 .icon {
-            color: #f8796c;
-            background-color: #fff;
-        }
-
-        .block_4be582a1-c031-4275-9adb-3d2606c7b15d .icon-box5 .icon svg {
-            color: #f8796c;
-            background-color: #fff;
-        }
-
-        .block_4be582a1-c031-4275-9adb-3d2606c7b15d .icon-box5 .content .title {
-            color: #333;
-        }
-
-        .block_4be582a1-c031-4275-9adb-3d2606c7b15d .icon-box5 .content p {
-            color: #696969;
-        }
-
-        .block_4be582a1-c031-4275-9adb-3d2606c7b15d .icon-box4 .inner .content .title {
-            color: #333;
-        }
-
-        .block_4be582a1-c031-4275-9adb-3d2606c7b15d .icon-box4 .inner .content p {
-            color: #696969;
-        }
-
-
-
-
-
-
-        .block_167051ed-8b2b-4513-b2f2-c1bf9f651ba4 .icon-box5 .icon {
-            color: #f8796c;
-            background-color: #fff;
-        }
-
-        .block_167051ed-8b2b-4513-b2f2-c1bf9f651ba4 .icon-box5 .icon svg {
-            color: #f8796c;
-            background-color: #fff;
-        }
-
-        .block_167051ed-8b2b-4513-b2f2-c1bf9f651ba4 .icon-box5 .content .title {
-            color: #333;
-        }
-
-        .block_167051ed-8b2b-4513-b2f2-c1bf9f651ba4 .icon-box5 .content p {
-            color: #696969;
-        }
-
-        .block_167051ed-8b2b-4513-b2f2-c1bf9f651ba4 .icon-box4 .inner .content .title {
-            color: #333;
-        }
-
-        .block_167051ed-8b2b-4513-b2f2-c1bf9f651ba4 .icon-box4 .inner .content p {
-            color: #696969;
-        }
-    </style>
-    <style data-shopify="">
-        #section-template--15812670685241__our-feature-two {
-            padding-top: 0px;
-            padding-bottom: 100px;
-        }
-
-        @media (min-width: 768px) and (max-width: 991px) {
-            #section-template--15812670685241__our-feature-two {
-                padding-top: 0px;
-                padding-bottom: 80px;
-            }
-        }
-
-        @media (max-width: 767px) {
-            #section-template--15812670685241__our-feature-two {
-                padding-top: 0px;
-                padding-bottom: 60px;
-            }
-        }
-    </style>
-
-
-
-</div>
-<div id="shopify-section-template--15812670685241__video-banner-3" class="shopify-section">
-    <!--
-    <div id="section-template--15812670685241__video-banner-3" class="section   section-normal ">
-        <div class="container">
-            <div class="video-banner2"
-                data-bg-image="//learts-demo.myshopify.com/cdn/shop/files/slide-3_75cc0a62-6922-4676-a983-5a4574dafb79.jpg?v=1613706195"
-                style="background-image: url(&quot;//learts-demo.myshopify.com/cdn/shop/files/slide-3_75cc0a62-6922-4676-a983-5a4574dafb79.jpg?v=1613706195&quot;);">
-                <div class="content">
-                    <a href="https://www.youtube.com/watch?v=_9VUPq3SxOc" class="video-popup"><img class="lazyload"
-                            src="//learts-demo.myshopify.com/cdn/shop/files/button-play-light_1024x1024.png?v=1613705864"
-                            alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-     -->
-    <style data-shopify="">
-        #section-template--15812670685241__video-banner-3 {}
-
-        @media (min-width: 768px) and (max-width: 991px) {
-            #section-template--15812670685241__video-banner-3 {}
-        }
-
-        @media (max-width: 767px) {
-            #section-template--15812670685241__video-banner-3 {}
-        }
-
-        .video-banner .content .title {
-            color: ;
-        }
-    </style>
-
+    </article>
 
 </div>
 
