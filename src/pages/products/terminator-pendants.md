@@ -13,7 +13,7 @@ description: amethyst
 active: true
 category: {
     name: "Gemstones",
-    image: "/img/category/stones-tumbled.jpg",
+    image: "/img/category/stones-tumbled.webp",
 }
 price: from $12
 bestSeller: false

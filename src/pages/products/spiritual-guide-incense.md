@@ -13,7 +13,7 @@ description: Spiritual Guide Incense
 active: true
 category: {
     name: "Incense",
-    image: "/img/category/incense.jpg",
+    image: "/img/category/incense.webp",
 }
 price: from $2.00
 bestSeller: true

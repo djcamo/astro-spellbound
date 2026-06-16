@@ -13,7 +13,7 @@ description: TBrass
 active: true
 category: {
     name: "Singing Bowls",
-    image: "/img/category/singing-bowl.jpg",
+    image: "/img/category/singing-bowl.webp",
 }
 price: from $35.00
 bestSeller: false

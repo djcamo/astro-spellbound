@@ -13,7 +13,7 @@ description: Pillar Candles.
 active: true
 category: {
     name: "Candles",
-    image: "/img/category/candles.jpg",
+    image: "/img/category/candles.webp",
 }
 price: $16.00
 bestSeller: false

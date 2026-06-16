@@ -13,7 +13,7 @@ description: Starting with the basics--choosing the best pack
 active: true
 category: {
     name: "Tarot/Oracle",
-    image: "/img/catalogs/tarot-oracle.jpg",
+    image: "/img/catalogs/tarot-oracle.webp",
 }
 price: $23.00
 bestSeller: false

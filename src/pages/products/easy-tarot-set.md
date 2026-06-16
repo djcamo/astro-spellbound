@@ -13,7 +13,7 @@ description: Easy Tarot Set.
 active: true
 category: {
     name: "Tarot/Oracle",
-    image: "/img/category/cards.jpg",
+    image: "/img/category/cards.webp",
 }
 price: $29.00
 bestSeller: false

@@ -13,7 +13,7 @@ description: Gumleaf Essentials is one of Australia's most reputable brands of e
 active: true
 category: {
     name: "Oils",
-    image: "/img/category/aromatherapy.jpg",
+    image: "/img/category/aromatherapy.webp",
 }
 price: individually priced
 bestSeller: true

@@ -13,7 +13,7 @@ description: The classic Rider-Waite Tarot is the best known Tarot deck.
 active: true
 category: {
     name: "Singing Bowls",
-    image: "/img/category/singing-bowl.jpg",
+    image: "/img/category/singing-bowl.webp",
 }
 price: from $295.00
 bestSeller: false

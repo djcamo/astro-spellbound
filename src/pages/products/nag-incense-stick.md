@@ -13,7 +13,7 @@ description: Satya Sai Baba Nag Champa Incense is made from mixture of herbs, fl
 active: true
 category: {
     name: "Incense",
-    image: "/img/category/incense.jpg",
+    image: "/img/category/incense.jwebppg",
 }
 price: from $2.00
 bestSeller: true
