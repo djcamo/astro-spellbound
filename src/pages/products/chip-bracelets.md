@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Gemstone Chip Bracelets
 image: {
-  src: "/img/products/chip-beads.jpg",
+  src: "/img/products/chip-beads.webp",
   alt: "stones",
 }
 imageHover: {

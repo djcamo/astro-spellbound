@@ -23,8 +23,40 @@ const { title } = Astro.props;
 		<link rel="stylesheet" href="css/unify-components.css">
 		<link rel="stylesheet" href="css/hamburgers.min.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+		<script type="application/ld+json">
+		{
+			"@context": "http://schema.org/",
+			"@type": "LocalBusiness",
+			"name": "Spellbound Magical Gifts",
+			"image": "https://spellboundmagicalgifts.com.au/img/spellbound.webp",
+			"telephone": "(08) 8523 2460",
+			"url": "https://spellboundmagicalgifts.com.au",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "72 Murray St ",
+				"addressLocality": "Gawler ",
+				"addressRegion": "South Australia",
+				"postalCode": "5118",
+				"addressCountry": "Australia"
+			},
+			"openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+					"opens": "09:30",
+					"closes": "17:00"
+				},
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": ["Saturday"],
+					"opens": "09:30",
+					"closes": "14:30"
+				}
+			]
+		}
+		</script>
 
 	</head>
 	<body>

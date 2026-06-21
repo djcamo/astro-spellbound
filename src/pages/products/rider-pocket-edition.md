@@ -2,11 +2,11 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Rider Tarot Deck - Pocket Edition
 image: {
-  src: "/img/products/the-rider-waite-tarot-deck.png",
+  src: "/img/products/the-rider-waite-tarot-deck.webp",
   alt: "Rider Tarot Deck - Pocket Edition",
 }
 imageHover: {
-  src: "/img/products/rider_tarot_mini.jpg",
+  src: "/img/products/rider_tarot_mini.webp",
   alt: "Rider Tarot Deck - Pocket Edition",
 }
 description: The classic Rider-Waite Tarot is the best known Tarot deck.

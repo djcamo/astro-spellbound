@@ -2,18 +2,18 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Cauldrons
 image: {
-  src: "/img/products/cauldron.jpg",
+  src: "/img/category/cauldron.webp",
   alt: "Cauldrons ",
 }
 imageHover: {
-  src: "/img/products/cauldron.webp",
+  src: "/img/products/cauldron1.webp",
   alt: "Cauldrons",
 }
 description: The classic Rider-Waite Tarot is the best known Tarot deck.
 active: true
 category: {
     name: "Cauldrons",
-    image: "/img/products/cauldron.jpg",
+    image: "/img/category/cauldron.webp",
 }
 price: from $30.00
 bestSeller: false

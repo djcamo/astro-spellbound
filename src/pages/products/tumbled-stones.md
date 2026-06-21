@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Tumbled Stones
 image: {
-  src: "/img/products/stones.jpg",
+  src: "/img/products/stones.webp",
   alt: "stones",
 }
 imageHover: {

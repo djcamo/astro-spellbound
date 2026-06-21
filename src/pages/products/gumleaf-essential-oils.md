@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Gumleaf Essential Oils
 image: {
-  src: "/img/products/pure-essential-oils.jpg",
+  src: "/img/products/pure-essential-oils.webp",
   alt: "Gumleaf Essential Oils",
 }
 imageHover: {

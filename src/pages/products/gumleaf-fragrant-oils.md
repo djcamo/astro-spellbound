@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Gumleaf Fragrant Oils
 image: {
-  src: "/img/products/gumleaf-fregrant.jpg",
+  src: "/img/products/gumleaf-fregrant.webp",
   alt: "Gumleaf Fragrant Oils",
 }
 imageHover: {

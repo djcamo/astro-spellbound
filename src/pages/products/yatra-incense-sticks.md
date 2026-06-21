@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Yatra Sticks 15g
 image: {
-  src: "/img/products/yatra-sticks.jpg",
+  src: "/img/products/yatra-sticks.webp",
   alt: "Yatra Range",
 }
 imageHover: {

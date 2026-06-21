@@ -2,11 +2,11 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Rider-Waite Tarot Deck - Standard
 image: {
-  src: "/img/products/standard-rider-waite.png",
+  src: "/img/products/standard-rider-waite.webp",
   alt: "Rider-Waite Tarot Deck - Standard",
 }
 imageHover: {
-  src: "/img/products/rider_tarot.jpg",
+  src: "/img/products/rider_tarot.webp",
   alt: "Rider-Waite Tarot Deck - Standard",
 }
 description: The classic Rider-Waite Tarot is the best known Tarot deck.

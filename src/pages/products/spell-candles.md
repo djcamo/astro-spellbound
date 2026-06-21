@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Spell Candles
 image: {
-  src: "/img/products/spell-candles-2.jpg",
+  src: "/img/products/spell-candles-2.webp",
   alt: "Spell Candles",
 }
 imageHover: {

@@ -71,6 +71,39 @@ import Header from '../components/Header.astro';
 <script src="/js/jquery-3.4.1.min.js"  is:inline></script>
 <script src="/js/bootstrap.bundle.min.js?v=34886772851325374221628155073" is:inline></script>
 
+<script type="application/ld+json">
+		{
+			"@context": "http://schema.org/",
+			"@type": "LocalBusiness",
+			"name": "Spellbound Magical Gifts",
+			"image": "https://spellboundmagicalgifts.com.au/img/spellbound.webp",
+			"telephone": "(08) 8523 2460",
+			"url": "https://spellboundmagicalgifts.com.au",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "72 Murray St ",
+				"addressLocality": "Gawler ",
+				"addressRegion": "South Australia",
+				"postalCode": "5118",
+				"addressCountry": "Australia"
+			},
+			"openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+					"opens": "09:30",
+					"closes": "17:00"
+				},
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": ["Saturday"],
+					"opens": "09:30",
+					"closes": "14:30"
+				}
+			]
+		}
+		</script>
+
 
 </head>
 <body id="learts-demo" class="template-index " style="position: relative; min-height: 100%; top: 0px;">

@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Satya Nag Champa
 image: {
-  src: "/img/products/nag-sticks.png",
+  src: "/img/products/nag-sticks.webp",
   alt: "Satya Nag Champa",
 }
 imageHover: {
@@ -13,7 +13,7 @@ description: Satya Sai Baba Nag Champa Incense is made from mixture of herbs, fl
 active: true
 category: {
     name: "Incense",
-    image: "/img/category/incense.jwebppg",
+    image: "/img/category/incense.webp",
 }
 price: from $2.00
 bestSeller: true

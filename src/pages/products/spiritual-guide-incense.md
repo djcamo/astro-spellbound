@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Spiritual Guide Incense
 image: {
-  src: "/img/products/spiritual-guide-incense.png",
+  src: "/img/products/spiritual-guide-incense.webp",
   alt: "Spiritual Guide Incense",
 }
 imageHover: {

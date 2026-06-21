@@ -2,11 +2,11 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Charcoal
 image: {
-  src: "/img/products/charcoal-1.jpg",
+  src: "/img/products/charcoal-1.webp",
   alt: "Charcoal",
 }
 imageHover: {
-  src: "/img/products/charcoal.jpg",
+  src: "/img/products/charcoal.webp",
   alt: "Charcoal",
 }
 description: Gumleaf Essentials is one of Australia's most reputable brands of essential oils

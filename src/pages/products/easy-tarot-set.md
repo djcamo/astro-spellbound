@@ -2,11 +2,11 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Easy Tarot Set
 image: {
-  src: "/img/products/easy-tarot.png",
+  src: "/img/products/easy-tarot.webp",
   alt: "Easy Tarot Set",
 }
 imageHover: {
-  src: "/img/products/easy-tarot-1.jpg",
+  src: "/img/products/easy-tarot-1.webp",
   alt: "Easy Tarot Set",
 }
 description: Easy Tarot Set.

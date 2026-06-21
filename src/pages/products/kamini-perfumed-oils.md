@@ -2,11 +2,11 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Kamini Roll on Perfumed Oils
 image: {
-  src: "/img/products/kamini-roll-ons.jpg",
+  src: "/img/products/kamini-roll-ons.webp",
   alt: "Kamini Roll on Perfumed Oils",
 }
 imageHover: {
-  src: "/img/products/kamini-roll-ons-1.jpg",
+  src: "/img/products/kamini-roll-ons-1.webp",
   alt: "Kamini Roll on Perfumed Oils",
 }
 description: Spirit of the Orient Fragrance Oils are a premium range of concentrated exotic fragrant oils.

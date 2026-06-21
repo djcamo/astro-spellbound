@@ -2,11 +2,11 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Magical Herbs
 image: {
-  src: "/img/products/herbs.jpg",
+  src: "/img/products/herbs.webp",
   alt: "Magical Herbs",
 }
 imageHover: {
-  src: "/img/products/herbs_smoldering.jpg",
+  src: "/img/products/herbs_smoldering.webp",
   alt: "Magical Herbs",
 }
 description: Herbs for Incense & Magical Use.

@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Palo Santo
 image: {
-  src: "/img/products/palo-santo.jpg",
+  src: "/img/products/palo-santo.webp",
   alt: "Palo Santo",
 }
 imageHover: {
@@ -13,7 +13,7 @@ description: Palo Santo
 active: true
 category: {
     name: "Herbs",
-    image: "/img/category/candles.jpg",
+    image: "/img/category/herbs.webp",
 }
 price: $5.00 per stick
 bestSeller: false

@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Spiritual Sky Perfumed Oil
 image: {
-  src: "/img/products/spiritual.sky.perfume.oils1.jpg",
+  src: "/img/products/spiritual.sky.perfume.oils1.webp",
   alt: "Perfumed Oils",
 }
 imageHover: {

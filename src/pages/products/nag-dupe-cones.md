@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Satya Nag Champa Cones
 image: {
-  src: "/img/products/nag-cones.jpg",
+  src: "/img/products/nag-cones.webp",
   alt: "Nag Range",
 }
 imageHover: {

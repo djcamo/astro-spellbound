@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Terminator Pendants
 image: {
-  src: "/img/products/terminators.jpg",
+  src: "/img/products/terminators.webp",
   alt: "stones",
 }
 imageHover: {

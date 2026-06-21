@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Spirit of the Orient Fragrant Oils
 image: {
-  src: "/img/products/spirit-oils.jpg",
+  src: "/img/products/spirit-oils.webp",
   alt: "Spirit of the Orient Fragrant Oils",
 }
 imageHover: {

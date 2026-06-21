@@ -2,7 +2,7 @@
 layout: "../../layouts/ProductLayout.astro"
 title: Yatra Incense Cones
 image: {
-  src: "/img/products/yatra-cones.jpg",
+  src: "/img/products/yatra-cones.webp",
   alt: "Yatra Range",
 }
 imageHover: {
